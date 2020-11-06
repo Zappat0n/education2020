@@ -1,3 +1,10 @@
-h1 {
-  color: blue;
+@font-face {
+  font-family: "Cocogoose";
+  src: url("../../assets/fonts/Cocogoose Pro-trial.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Cocogoose";
+  src: url("../../assets/fonts/Cocogoose Pro Light-trial.ttf");
+  font-weight: 400;
 }
