@@ -1,14 +1,14 @@
 /////////////// FONTS
 
 @font-face {
-  font-family: "Cocogoose";
-  src: url("../../assets/fonts/Cocogoose\ Pro-trial.ttf");
+  font-family: "cocogoose";
+  src: url("../../assets/fonts/cocogoose.ttf");
   font-weight: 700;
 }
 
 @font-face {
-  font-family: "Cocogoose";
-  src: url("../../assets/fonts/Cocogoose\ Pro\ Light-trial.ttf");
+  font-family: "cocogoose";
+  src: url("../../assets/fonts/cocogoose-light.ttf");
   font-weight: 400;
 }
 
@@ -19,3 +19,11 @@
 $black: #272a31;
 $red: #ec5242;
 $grey: #d3d3d3;
+$blue: #0771b8;
+
+header {
+  .nav-link {
+    color: $blue;
+    font: 700 16px/20px cocogoose, sans-serif;
+  }
+}

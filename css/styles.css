@@ -1,10 +1,14 @@
 @font-face {
-  font-family: "Cocogoose";
-  src: url("../../assets/fonts/Cocogoose Pro-trial.ttf");
+  font-family: "cocogoose";
+  src: url("../../assets/fonts/cocogoose.ttf");
   font-weight: 700;
 }
 @font-face {
-  font-family: "Cocogoose";
-  src: url("../../assets/fonts/Cocogoose Pro Light-trial.ttf");
+  font-family: "cocogoose";
+  src: url("../../assets/fonts/cocogoose-light.ttf");
   font-weight: 400;
+}
+header .nav-link {
+  color: #0771b8;
+  font: 700 16px/20px cocogoose, sans-serif;
 }
