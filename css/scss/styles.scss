@@ -21,13 +21,18 @@ $red: #ec5242;
 $grey: #d3d3d3;
 $blue: #0771b8;
 
+@mixin topLeft ($top, $left) {
+  top: $top;
+  left: $left;
+}
+
 @mixin transformLetter($top, $left, $width, $time) {
   position: absolute;
   transform: rotate(360deg);
   transition: top $time, left $time, transform $time;
   transition-timing-function: ease-in-out;
-  top: $top;
-  left: $left;
+
+  @include topLeft($top, $left);
 
   img {
     width: $width;
@@ -48,15 +53,8 @@ header {
 }
 
 .transition {
-  .letter {
-    transition: top 2s, right 2s, bottom 2s, left 2s, transform 2s;
-    transition-timing-function: ease-in-out;
-  }
-
   .letter-E {
-    position: absolute;
-    left: -100%;
-    top: 80px;
+    @include topLeft(80px, -100%);
   }
 
   .letter-E1 {
@@ -72,7 +70,6 @@ header {
   }
 
   .letter-L {
-    position: absolute;
     top: 200%;
   }
 
@@ -89,8 +86,7 @@ header {
   }
 
   .letter-A {
-    left: 200%;
-    top: 200%;
+    @include topLeft(200%, 200%);
   }
 
   .letter-A1 {
@@ -106,8 +102,7 @@ header {
   }
 
   .letter-N {
-    left: 50%;
-    top: 200%;
+    @include topLeft(200%, 50%);
   }
 
   .letter-N1 {
@@ -124,27 +119,61 @@ header {
 
   .marble {
     position: absolute;
-    transform: rotate(360deg);
-    top: 60px;
-    left: 54%;
-    animation: sk-bounce 2s ease-in;
+    animation: marble-bounce 2s ease-in;
     animation-delay: 6s;
     animation-fill-mode: forwards;
+
+    @include topLeft(60px, 54%);
 
     img {
       width: 50px;
     }
   }
 
-  @keyframes sk-bounce {
+  @keyframes marble-bounce {
     0% {
-      top: 55px;
-      left: 55%;
+      @include topLeft(55px, 55%);
     }
 
     100% {
-      top: 90%;
-      left: 90%;
+      @include topLeft(90%, 90%);
+    }
+  }
+
+  .number2 {
+    position: absolute;
+    animation: year-appear 0.5s ease-in;
+    animation-delay: 8s;
+    animation-fill-mode: both;
+
+    @include topLeft(89%, 83%);
+  }
+
+  .marble-2 {
+    position: absolute;
+    animation: year-appear 0.5s ease-in;
+    animation-delay: 8.5s;
+    animation-fill-mode: both;
+
+    @include topLeft(90%, 78%);
+  }
+
+  .number2-2 {
+    position: absolute;
+    animation: year-appear 0.5s ease-in;
+    animation-delay: 9s;
+    animation-fill-mode: both;
+
+    @include topLeft(89%, 71%);
+  }
+
+  @keyframes year-appear {
+    0% {
+      transform: scale(0);
+    }
+
+    100% {
+      transform: scale(1);
     }
   }
 }

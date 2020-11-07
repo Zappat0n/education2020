@@ -17,14 +17,9 @@ header .nav-link {
   font: 700 16px/20px cocogoose, sans-serif;
 }
 
-.transition .letter {
-  transition: top 2s, right 2s, bottom 2s, left 2s, transform 2s;
-  transition-timing-function: ease-in-out;
-}
 .transition .letter-E {
-  position: absolute;
-  left: -100%;
   top: 80px;
+  left: -100%;
 }
 .transition .letter-E1 {
   position: absolute;
@@ -64,7 +59,6 @@ header .nav-link {
   }
 }
 .transition .letter-L {
-  position: absolute;
   top: 200%;
 }
 .transition .letter-L1 {
@@ -105,8 +99,8 @@ header .nav-link {
   }
 }
 .transition .letter-A {
-  left: 200%;
   top: 200%;
+  left: 200%;
 }
 .transition .letter-A1 {
   position: absolute;
@@ -146,8 +140,8 @@ header .nav-link {
   }
 }
 .transition .letter-N {
-  left: 50%;
   top: 200%;
+  left: 50%;
 }
 .transition .letter-N1 {
   position: absolute;
@@ -188,17 +182,16 @@ header .nav-link {
 }
 .transition .marble {
   position: absolute;
-  transform: rotate(360deg);
-  top: 60px;
-  left: 54%;
-  animation: sk-bounce 2s ease-in;
+  animation: marble-bounce 2s ease-in;
   animation-delay: 6s;
   animation-fill-mode: forwards;
+  top: 60px;
+  left: 54%;
 }
 .transition .marble img {
   width: 50px;
 }
-@keyframes sk-bounce {
+@keyframes marble-bounce {
   0% {
     top: 55px;
     left: 55%;
@@ -206,5 +199,37 @@ header .nav-link {
   100% {
     top: 90%;
     left: 90%;
+  }
+}
+.transition .number2 {
+  position: absolute;
+  animation: year-appear 0.5s ease-in;
+  animation-delay: 8s;
+  animation-fill-mode: both;
+  top: 89%;
+  left: 83%;
+}
+.transition .marble-2 {
+  position: absolute;
+  animation: year-appear 0.5s ease-in;
+  animation-delay: 8.5s;
+  animation-fill-mode: both;
+  top: 90%;
+  left: 78%;
+}
+.transition .number2-2 {
+  position: absolute;
+  animation: year-appear 0.5s ease-in;
+  animation-delay: 9s;
+  animation-fill-mode: both;
+  top: 89%;
+  left: 71%;
+}
+@keyframes year-appear {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
   }
 }
