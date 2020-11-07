@@ -8,6 +8,10 @@
   src: url("../../assets/fonts/cocogoose-light.ttf");
   font-weight: 400;
 }
+body {
+  max-width: 1024px;
+}
+
 header .nav-link {
   color: #0771b8;
   font: 700 16px/20px cocogoose, sans-serif;
@@ -19,54 +23,188 @@ header .nav-link {
 }
 .transition .letter-E {
   position: absolute;
-  left: -5%;
+  left: -100%;
   top: 80px;
 }
 .transition .letter-E1 {
-  width: 50px;
-  transform: rotate(360deg);
   position: absolute;
+  transform: rotate(360deg);
   transition: top 2s, left 2s, transform 2s;
   transition-timing-function: ease-in-out;
-  top: 100px;
-  left: 32%;
+  top: 120px;
+  left: 25%;
+}
+.transition .letter-E1 img {
+  width: 32px;
+}
+@media (min-width: 768px) {
+  .transition .letter-E1 {
+    position: absolute;
+    transform: rotate(360deg);
+    transition: top 2s, left 2s, transform 2s;
+    transition-timing-function: ease-in-out;
+    top: 100px;
+    left: 27%;
+  }
+  .transition .letter-E1 img {
+    width: 44px;
+  }
+}
+@media (min-width: 1024px) {
+  .transition .letter-E1 {
+    position: absolute;
+    transform: rotate(360deg);
+    transition: top 2s, left 2s, transform 2s;
+    transition-timing-function: ease-in-out;
+    top: 100px;
+    left: 32%;
+  }
+  .transition .letter-E1 img {
+    width: 50px;
+  }
 }
 .transition .letter-L {
   position: absolute;
-  top: 100%;
+  top: 200%;
 }
 .transition .letter-L1 {
-  width: 50px;
-  transform: rotate(360deg);
   position: absolute;
-  transition: bottom 2s, top 2s, left 2s, transform 2s;
-  transition-timing-function: ease-in-out;
-  top: 100px;
-  left: 38%;
-}
-.transition .letter-A {
-  left: 100%;
-  top: 100%;
-}
-.transition .letter-A1 {
-  width: 50px;
   transform: rotate(360deg);
-  position: absolute;
   transition: top 2s, left 2s, transform 2s;
   transition-timing-function: ease-in-out;
-  top: 100px;
-  left: 44%;
+  top: 120px;
+  left: 35%;
+}
+.transition .letter-L1 img {
+  width: 32px;
+}
+@media (min-width: 768px) {
+  .transition .letter-L1 {
+    position: absolute;
+    transform: rotate(360deg);
+    transition: top 2s, left 2s, transform 2s;
+    transition-timing-function: ease-in-out;
+    top: 100px;
+    left: 34%;
+  }
+  .transition .letter-L1 img {
+    width: 44px;
+  }
+}
+@media (min-width: 1024px) {
+  .transition .letter-L1 {
+    position: absolute;
+    transform: rotate(360deg);
+    transition: top 2s, left 2s, transform 2s;
+    transition-timing-function: ease-in-out;
+    top: 100px;
+    left: 38%;
+  }
+  .transition .letter-L1 img {
+    width: 50px;
+  }
+}
+.transition .letter-A {
+  left: 200%;
+  top: 200%;
+}
+.transition .letter-A1 {
+  position: absolute;
+  transform: rotate(360deg);
+  transition: top 2s, left 2s, transform 2s;
+  transition-timing-function: ease-in-out;
+  top: 120px;
+  left: 45%;
+}
+.transition .letter-A1 img {
+  width: 32px;
+}
+@media (min-width: 768px) {
+  .transition .letter-A1 {
+    position: absolute;
+    transform: rotate(360deg);
+    transition: top 2s, left 2s, transform 2s;
+    transition-timing-function: ease-in-out;
+    top: 100px;
+    left: 41%;
+  }
+  .transition .letter-A1 img {
+    width: 44px;
+  }
+}
+@media (min-width: 1024px) {
+  .transition .letter-A1 {
+    position: absolute;
+    transform: rotate(360deg);
+    transition: top 2s, left 2s, transform 2s;
+    transition-timing-function: ease-in-out;
+    top: 100px;
+    left: 44%;
+  }
+  .transition .letter-A1 img {
+    width: 50px;
+  }
 }
 .transition .letter-N {
   left: 50%;
-  top: 100%;
+  top: 200%;
 }
 .transition .letter-N1 {
-  width: 50px;
-  transform: rotate(360deg);
   position: absolute;
+  transform: rotate(360deg);
   transition: top 2s, left 2s, transform 2s;
   transition-timing-function: ease-in-out;
-  top: 100px;
-  left: 50%;
+  top: 120px;
+  left: 55%;
+}
+.transition .letter-N1 img {
+  width: 32px;
+}
+@media (min-width: 768px) {
+  .transition .letter-N1 {
+    position: absolute;
+    transform: rotate(360deg);
+    transition: top 2s, left 2s, transform 2s;
+    transition-timing-function: ease-in-out;
+    top: 100px;
+    left: 48%;
+  }
+  .transition .letter-N1 img {
+    width: 44px;
+  }
+}
+@media (min-width: 1024px) {
+  .transition .letter-N1 {
+    position: absolute;
+    transform: rotate(360deg);
+    transition: top 2s, left 2s, transform 2s;
+    transition-timing-function: ease-in-out;
+    top: 100px;
+    left: 50%;
+  }
+  .transition .letter-N1 img {
+    width: 50px;
+  }
+}
+.transition .marble {
+  position: absolute;
+  transform: rotate(360deg);
+  top: 60px;
+  left: 54%;
+  animation: sk-bounce 2s ease-in;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
+}
+.transition .marble img {
+  width: 50px;
+}
+@keyframes sk-bounce {
+  0% {
+    top: 55px;
+    left: 55%;
+  }
+  100% {
+    top: 90%;
+    left: 90%;
+  }
 }
