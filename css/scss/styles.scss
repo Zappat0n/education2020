@@ -27,3 +27,71 @@ header {
     font: 700 16px/20px cocogoose, sans-serif;
   }
 }
+
+.transition {
+  .letter {
+    transition: top 2s, right 2s, bottom 2s, left 2s, transform 2s;
+    transition-timing-function: ease-in-out;
+  }
+
+  .letter-E {
+    position: absolute;
+    left: -5%;
+    top: 80px;
+  }
+
+  .letter-E1 {
+    width: 50px;
+    transform: rotate(360deg);
+    position: absolute;
+    transition: top 2s, left 2s, transform 2s;
+    transition-timing-function: ease-in-out;
+    top: 100px;
+    left: 32%;
+  }
+
+  .letter-L {
+    position: absolute;
+    top: 100%;
+  }
+
+  .letter-L1 {
+    width: 50px;
+    transform: rotate(360deg);
+    position: absolute;
+    transition: bottom 2s, top 2s, left 2s, transform 2s;
+    transition-timing-function: ease-in-out;
+    top: 100px;
+    left: 38%;
+  }
+
+  .letter-A {
+    left: 100%;
+    top: 100%;
+  }
+
+  .letter-A1 {
+    width: 50px;
+    transform: rotate(360deg);
+    position: absolute;
+    transition: top 2s, left 2s, transform 2s;
+    transition-timing-function: ease-in-out;
+    top: 100px;
+    left: 44%;
+  }
+
+  .letter-N {
+    left: 50%;
+    top: 100%;
+  }
+
+  .letter-N1 {
+    width: 50px;
+    transform: rotate(360deg);
+    position: absolute;
+    transition: top 2s, left 2s, transform 2s;
+    transition-timing-function: ease-in-out;
+    top: 100px;
+    left: 50%;
+  }
+}
