@@ -43,7 +43,7 @@ $blue: rgba(7, 113, 184, 1); //#0771B8
 
 body {
   max-width: 1024px;
-  background: lightblue url("../../assets/imgs/ilustracion_colegio_elan_transparent.png") no-repeat fixed center;
+  background: lightgray url("../../assets/imgs/ilustracion_colegio_elan_transparent.png") no-repeat fixed center;
   background-size: cover;
 }
 
@@ -74,15 +74,22 @@ header {
 
   .intro {
     font-family: 'Lato', sans-serif;
-    color: $blue;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    //background-image: linear-gradient(to bottom right, rgb(255 0 0), transparent, black);
+    //-webkit-background-clip: text;
+    //-webkit-text-fill-color: transparent;
+    color: $red;
+    //text-shadow: -1px 0 lightgray, 0 1px lightgray, 1px 0 lightgray, 0 -1px lightgray;
     font-size: 20px;
     font-weight: 400;
   }
 
   .title {
-    color: $blue;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: $red;
+    //background: url(../../assets/imgs/ilustracion_colegio_elan.svg) no-repeat;
+    //background-image: linear-gradient(to bottom right, rgb(255 0 0), transparent, black);
+    //-webkit-background-clip: text;
+    //-webkit-text-fill-color: transparent;
+    //background-size: 100%;
     font-size: 32px;
     font-weight: 700;
   }
