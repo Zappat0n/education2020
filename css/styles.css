@@ -8,10 +8,34 @@
   src: url("../../assets/fonts/cocogoose-light.ttf");
   font-weight: 400;
 }
-body {
-  max-width: 1024px;
+body::before {
+  content: "";
+  background: lightblue url("../../assets/imgs/ilustracion_colegio_elan.svg") no-repeat fixed center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.2;
 }
 
+body {
+  max-width: 1024px;
+  background: lightblue url("../../assets/imgs/ilustracion_colegio_elan_transparent.png") no-repeat fixed center;
+  background-size: cover;
+}
+
+header .mobile-navbar {
+  color: #0771b8;
+}
+header .dropdown i {
+  color: #0771b8;
+}
+header .dropdown .dropdown-item {
+  color: #0771b8;
+  font: 700 16px/20px cocogoose, sans-serif;
+}
 header .nav-link {
   color: #0771b8;
   font: 700 16px/20px cocogoose, sans-serif;

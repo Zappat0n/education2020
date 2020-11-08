@@ -41,11 +41,41 @@ $blue: #0771b8;
 
 /////////////// SCSS
 
+body::before {
+  content: "";
+  background: lightblue url("../../assets/imgs/ilustracion_colegio_elan.svg") no-repeat fixed center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.2;
+}
+
 body {
   max-width: 1024px;
+  background: lightblue url("../../assets/imgs/ilustracion_colegio_elan_transparent.png") no-repeat fixed center;
+  background-size: cover;
+
 }
 
 header {
+  .mobile-navbar {
+    color: $blue;
+  }
+
+  .dropdown {
+    i {
+      color: $blue;
+    }
+
+    .dropdown-item {
+      color: $blue;
+      font: 700 16px/20px cocogoose, sans-serif;
+    }
+  }
+
   .nav-link {
     color: $blue;
     font: 700 16px/20px cocogoose, sans-serif;

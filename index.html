@@ -11,6 +11,7 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/56125eaeb9.js" crossorigin="anonymous"></script>
 
     <script src="./js/transition.js"></script>
     
@@ -18,9 +19,21 @@
 
   <body class = "container-fluid">
     <header>
-      <nav class="navbar navbar-expand sticky-top mx-2">
+      <nav class="mobile-navbar navbar navbar-expand sticky-top p-2">
+        <div class="dropdown d-md-none">
+          <button class="btn btn-secondary dropdown-toggle bg-transparent border-0 p-1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bars fa-1x"></i>
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">About</a>
+            <a class="dropdown-item" href="#">Tickets</a>
+            <a class="dropdown-item" href="#">Program</a>
+          </div>
+        </div>
+      </nav>
+      
+      <nav class="desktop-navbar navbar navbar-expand sticky-top justify-content-between px-0 d-none">
         <a href="" class="navbar-brand"><img src="./assets/imgs/logosELAN-01A.png" width="200" alt="LOGO"></a>
-        <ul class="nav justify-content-around px-5 w-50">
+        <ul class="nav justify-content-around px-5 w-50 d-none d-md-flex">
           <li class="nav-item"><a href="#" class="nav-link">About</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Tickets</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Program</a></li>
@@ -28,7 +41,7 @@
       </nav>
     </header>
 
-    <div class="transition">
+    <div class="transition d-none">
       <div class="letter letter-E position-absolute"><img src="./assets/imgs/LogoE.png" width="60" alt=""></div>
       <div class="letter letter-L position-absolute"><img src="./assets/imgs/LogoL.png" width="60" alt=""></div>
       <div class="letter letter-A position-absolute"><img src="./assets/imgs/LogoA.png" width="60" alt=""></div>
@@ -38,10 +51,16 @@
       <div class="marble-2"><img src="./assets/imgs/marble.png" alt=""></div>
       <div class="number2-2"><img src="./assets/imgs/number-2.png" alt=""></div>
     </div>
-
-    <main class="bg-primary">
-    </main>
-
+<!-- 
+    <main>
+      <section class="introduction">
+        <p class="introduction">Hello Everybody!</p>
+        <p class="title">POSITIVE DISCIPLE MURCIA EVENT 2019</p>
+        <p class="content"></p>
+        <p class="date"></p>
+        <p class="place"></p>
+      </section>
+    </main> -->
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
