@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "cocogoose";
-  src: url("../../assets/fonts/cocogoose.ttf");
+  src: url("../../assets/fonts/Cocogoose_trial.otf");
   font-weight: 700;
 }
 
@@ -17,9 +17,9 @@
 /////////////// VARIABLES
 
 $black: #272a31;
-$red: #ec5242;
+$red: rgba(236, 82, 66, 1); //#EC5242
 $grey: #d3d3d3;
-$blue: #0771b8;
+$blue: rgba(7, 113, 184, 1); //#0771B8
 
 @mixin topLeft ($top, $left) {
   top: $top;
@@ -41,23 +41,10 @@ $blue: #0771b8;
 
 /////////////// SCSS
 
-body::before {
-  content: "";
-  background: lightblue url("../../assets/imgs/ilustracion_colegio_elan.svg") no-repeat fixed center;
-  background-size: cover;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  opacity: 0.2;
-}
-
 body {
   max-width: 1024px;
   background: lightblue url("../../assets/imgs/ilustracion_colegio_elan_transparent.png") no-repeat fixed center;
   background-size: cover;
-
 }
 
 header {
@@ -79,6 +66,39 @@ header {
   .nav-link {
     color: $blue;
     font: 700 16px/20px cocogoose, sans-serif;
+  }
+}
+
+.introduction {
+  font-family: cocogoose, sans-serif;
+
+  .intro {
+    font-family: 'Lato', sans-serif;
+    color: $blue;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .title {
+    color: $blue;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  .content {
+    font-size: 12px;
+    background-color: rgba(7, 113, 184, 0.3);
+  }
+
+  .date {
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .place {
+    font-size: 12px;
   }
 }
 
