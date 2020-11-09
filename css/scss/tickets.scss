@@ -3,7 +3,11 @@
 .step {
   border: solid 1px white;
   border-radius: 20px;
-  width: 90%;
+
+  ul {
+    width: 40%;
+    padding-inline-start: 25px;
+  }
 
   li {
     color: $red;

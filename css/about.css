@@ -36,6 +36,13 @@ p {
   padding: 20px;
 }
 
+.btn {
+  background-color: #0771b8;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
 body {
   max-width: 1024px;
   background: lightgray url("../../assets/imgs/ilustracion_colegio_elan_transparent.png") no-repeat fixed center;
@@ -62,6 +69,12 @@ header .nav-link {
 
 footer .top-footer {
   background-color: lightgray;
+}
+footer .top-footer .col {
+  width: 40%;
+}
+footer .top-footer img {
+  width: 100%;
 }
 footer .top-footer h3 {
   color: white;
