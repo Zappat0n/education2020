@@ -13,6 +13,7 @@ h2 {
   font-size: 32px;
   font-weight: 700;
   color: #0771b8;
+  margin: auto;
 }
 
 h3 {
@@ -30,6 +31,8 @@ p {
 
 .content {
   border: solid 1px white;
+  background-color: rgba(7, 113, 184, 0.3);
+  padding: 20px;
 }
 
 body {
@@ -76,9 +79,6 @@ footer .top-footer h3 {
   color: #ec5242;
   font-size: 32px;
   font-weight: 700;
-}
-.introduction .content {
-  background-color: rgba(7, 113, 184, 0.3);
 }
 .introduction .date {
   font-family: cocogoose, sans-serif;

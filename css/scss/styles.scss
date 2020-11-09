@@ -52,6 +52,7 @@ h2 {
   font-size: 32px;
   font-weight: 700;
   color: $primary;
+  margin: auto;
 }
 
 h3 {
@@ -69,6 +70,8 @@ p {
 
 .content {
   border: solid 1px white;
+  background-color: rgba(7, 113, 184, 0.3);
+  padding: 20px;
 }
 
 body {
