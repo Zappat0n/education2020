@@ -7,7 +7,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/simplex/bootstrap.min.css"  crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/index.css">
     <title>Hello, world!</title>
 
     <!-- Fonts -->
@@ -91,22 +91,25 @@
         <button type="button" class="btn w-75 mx-auto py-4 my-4">Join Positive Discipline Murcia Event 2020</button>
       </section>
 
-      <section class="speaker">
-        <div class="row">
-          <div class="col-left col-4">
-            <i class="fas fa-chalkboard-teacher fa-3x"></i>
+      <section class="speaker d-flex flex-column">
+        <h3 class="m-auto pt-4 pb-2 mb-2">Featured speakers</h3>
+         <div class="speaker d-flex mt-4">
+          <div class="pictures col-3 position-relative">
+            <img src="./assets/imgs/chessboard.jpg" alt="" width="60">
+            <img class="photo" src="./assets/imgs/5b58e3b007324-bpfull.jpg" width="120" alt="">
           </div>
-          <div class="col-right col-8">
-            <h5 class="card-title">Lunch included</h5>
-            <p class="card-text">Listen to Marisa Moya.</p>
-  
+          <div class="text col-9 ml-5">
+            <div class="name">Marisa Moya</div>
+            <div class="title mb-3">Teacher of Positive Discipline certified by the Positive Discipline Association</div>
+            <p>Director of School Gran vía in Madrid and creator of enREDada school to promote respectful relationships.</p> 
           </div>
+        </div>
       </section>
     </main>
 
     <footer>
       <section class="top-footer bg-dark">
-        <h3>Partner</h3>
+        <h3 class="m-auto pt-4 pb-2">Partner</h3>
         <div class="row">
           <div class="col"><a href="https://www.positivediscipline.org/"></a></div>
           <div class="col"><a href="https://disciplinapositivaespana.com/miembros/marisa-moya/"></a></div>
@@ -121,7 +124,7 @@
           <p>2019 Elan Montessori British School</p>
           <p>Some rights reserved</p>
         </div>
-      </section
+      </section>
     </footer>
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
