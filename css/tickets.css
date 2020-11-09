@@ -70,6 +70,7 @@ footer .top-footer h3 {
 .step {
   border: solid 1px white;
   border-radius: 20px;
+  width: 90%;
 }
 .step li {
   color: #ec5242;
@@ -98,4 +99,9 @@ footer .top-footer h3 {
 .bordered {
   border-image: linear-gradient(-45deg, red 1px, white 1px, blue 1px) 1 stretch repeat;
   border-image-slice: 1;
+}
+
+.lunch .title {
+  width: 100%;
+  background-color: lightgray;
 }

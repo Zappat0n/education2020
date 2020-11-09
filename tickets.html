@@ -40,56 +40,89 @@
     </header>
 
     <main>
-        <section class="tickets">
-          <section class="select d-flex align-items-center flex-column">
-            <h3 class="my-4">Select Tickets</h3>
-            <div class="step d-flex align-items-center pt-3 pb-1">
-              <ul class="">
-                <li class="color-primary">STEP 1</li>
-              </ul>
-              <p class="px-3">Please select the day when you want to join the Event</p>
+        <section class="tickets d-flex align-items-center flex-column">
+          <h3 class="my-4">Select Tickets</h3>
+          <div class="step d-flex align-items-center pt-3 pb-1">
+            <ul class="">
+              <li class="color-primary">STEP 1</li>
+            </ul>
+            <p class="px-3">Please select the day when you want to join the Event</p>
+          </div>
+          <div class="step1 mt-4 bordered">
+            <div class="item title">Ticket</div>
+            <div class="item title">Both days</div>
+            <div class="item title">1st day</div>
+            <div class="item title">2nd day</div>
+            <div class="item">Date</div>
+            <div class="item">19-20.Oct(Sat-Sun)</div>
+            <div class="item">19.Oct(Sat)</div>
+            <div class="item">20.Oct(Sun)</div>
+            <div class="item">Normal</div>
+            <div class='item d-flex flex-column align-items-center'>
+              <label for="button1">200€</label>
+              <input type="radio" class="normal center" name="normal" value="1" id="button1"/>
             </div>
-            <div class="step1 mt-4 bordered">
-              <div class="item title">Ticket</div>
-              <div class="item title">Both days</div>
-              <div class="item title">1st day</div>
-              <div class="item title">2nd day</div>
-              <div class="item">Date</div>
-              <div class="item">19-20.Oct(Sat-Sun)</div>
-              <div class="item">19.Oct(Sat)</div>
-              <div class="item">20.Oct(Sun)</div>
-              <div class="item">Normal</div>
-              <div class='item d-flex flex-column align-items-center'>
-                <label for="button1">120€</label>
-                <input type="radio" class="normal center" name="normal" value="1" id="button1"/>
-              </div>
-              <div class='item d-flex flex-column align-items-center'>
-                <label for="button1">120€</label>
-                <input type="radio" class="normal" name="normal" value="1" id="button1"/>
-              </div>
-              <div class='item d-flex flex-column align-items-center'>
-                <label for="button1">200€</label>
-                <input type="radio" class="normal" name="normal" value="1" id="button1" selected/>
-              </div>
-              <div class="item">School parents</div>
-              <div class='item d-flex flex-column align-items-center'>
-                <label for="button1">60€</label>
-                <input type="radio" class="normal" name="normal" value="1" id="button1"/>
-              </div>
-              <div class='item d-flex flex-column align-items-center'>
-                <label for="button1">60€</label>
-                <input type="radio" class="normal" name="normal" value="1" id="button1"/>
-              </div>
-              <div class='item d-flex flex-column align-items-center'>
-                <label for="button1">100€</label>
-                <input type="radio" class="normal" name="normal" value="1" id="button1"/>
-              </div>
+            <div class='item d-flex flex-column align-items-center'>
+              <label for="button1">120€</label>
+              <input type="radio" class="normal" name="normal" value="1" id="button1"/>
             </div>
-  
-          </section>
+            <div class='item d-flex flex-column align-items-center'>
+              <label for="button1">120€</label>
+              <input type="radio" class="normal" name="normal" value="1" id="button1" selected/>
+            </div>
+            <div class="item">School parents</div>
+            <div class='item d-flex flex-column align-items-center'>
+              <label for="button1">100€</label>
+              <input type="radio" class="normal" name="normal" value="1" id="button1"/>
+            </div>
+            <div class='item d-flex flex-column align-items-center'>
+              <label for="button1">60€</label>
+              <input type="radio" class="normal" name="normal" value="1" id="button1"/>
+            </div>
+            <div class='item d-flex flex-column align-items-center'>
+              <label for="button1">60€</label>
+              <input type="radio" class="normal" name="normal" value="1" id="button1"/>
+            </div>
+          </div>
+      </section>
+      <section class="d-flex align-items-center flex-column">
+        <h3 class="my-4">Select Your Lunch</h3>
+        <div class="step d-flex align-items-center pt-3 pb-1">
+          <ul class="">
+            <li class="color-primary">STEP 1</li>
+          </ul>
+          <p class="px-3">Please select your lunch for registered day. <br>The were be no further costs for the lunch</p>
+        </div>
+        
+        <div class="lunch mt-5 d-flex flex-column border border-white w-100">
+          <div class="title text-center py-2"><strong>19, Oct. Saturday</strong></div>
+          <ul class="d-flex list-unstyled justify-content-around my-3">
+            <li>
+              <label for="button1">menu 1</label>
+              <input type="radio" class="launch1" name="launch1" value="1" id="button1"/>
+            </li>
+            <li>
+              <label for="button1">menu 2</label>
+              <input type="radio" class="launch1" name="launch1" value="1" id="button1"/>
+            </li>
+          </ul>
+        </div>
 
-        </section>
+        <div class="lunch mt-3 d-flex flex-column border border-white w-100">
+          <div class="title text-center py-2"><strong>20, Oct. Saturday</strong></div>
+          <ul class="d-flex list-unstyled justify-content-around my-3">
+            <li>
+              <label for="button1">menu 1</label>
+              <input type="radio" class="launch2" name="launch2" value="1" id="button1"/>
+            </li>
+            <li>
+              <label for="button1">menu 2</label>
+              <input type="radio" class="launch2" name="launch2" value="1" id="button1"/>
+            </li>
+          </ul>
+        </div>
 
+      </section>
     </main>
 
     <footer>
