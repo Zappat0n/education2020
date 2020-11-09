@@ -79,4 +79,23 @@ footer .top-footer h3 {
 .step1 {
   display: grid;
   grid-template: repeat(4, auto)/repeat(4, auto);
+  border: 5px solid white;
+}
+.step1 .item {
+  text-align: center;
+  padding: 5px;
+  font-family: "Lato", sans-serif;
+  border: 1px solid white;
+}
+.step1 .item label {
+  font-weight: bold;
+  color: #ec5242;
+}
+.step1 .title {
+  background-color: lightgray;
+}
+
+.bordered {
+  border-image: linear-gradient(to bottom right, red 1%, white 1%, blue 1%);
+  border-image-slice: 1;
 }

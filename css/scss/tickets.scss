@@ -13,4 +13,26 @@
 .step1 {
   display: grid;
   grid-template: repeat(4, auto) / repeat(4, auto);
+  border: 5px solid white;
+
+  .item {
+    text-align: center;
+    padding: 5px;
+    font-family: $font-text;
+    border: 1px solid white;
+
+    label {
+      font-weight: bold;
+      color: $red;
+    }
+  }
+
+  .title {
+    background-color: $secundary;
+  }
+}
+
+.bordered {
+  border-image: linear-gradient(to bottom right, red 1%, white 1%, blue 1%);
+  border-image-slice: 1;
 }
