@@ -26,7 +26,6 @@ $font-text: 'Lato', sans-serif;
 $primary: $blue;
 $secundary: $grey;
 
-
 @mixin topLeft ($top, $left) {
   top: $top;
   left: $left;
