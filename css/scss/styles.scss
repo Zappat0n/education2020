@@ -18,11 +18,14 @@
 
 $black: #272a31;
 $red: rgba(236, 82, 66, 1); //#EC5242
-$grey: #d3d3d3;
+$grey:rgba(211, 211, 211, 1);    //#d3d3d3;
+$grey-transparent: rgba(211, 211, 211, 0.4);
 $blue: rgba(7, 113, 184, 1); //#0771B8
 $font-titles : cocogoose, sans-serif;
 $font-text: 'Lato', sans-serif;
 $primary: $blue;
+$secundary: $grey;
+
 
 @mixin topLeft ($top, $left) {
   top: $top;
@@ -59,7 +62,7 @@ h3 {
 
 p {
   font-family: $font-text;
-  font-size: 24px;
+  font-size: 12px;
   color: $black;
 }
 
@@ -125,7 +128,6 @@ header {
   }
 
   .content {
-    font-size: 12px;
     background-color: rgba(7, 113, 184, 0.3);
   }
 
@@ -138,6 +140,38 @@ header {
 
   .place {
     font-size: 12px;
+  }
+}
+
+.program {
+  background-image: url("../../assets/imgs/Black-background-metal-iphone-wallpaper-ilikewallpaper_com.jpg");
+  color: white;
+
+  h3 {
+    color: white;
+    border-bottom: $primary 1px solid;
+  }
+
+  .topic {
+    color: $primary;
+    font-weight: bold;
+    font-family: $font-titles;
+  }
+
+  p {
+    font-family: $font-text;
+    color: white;
+  }
+
+  .row {
+    background-color: $grey-transparent;
+  }
+
+  button {
+    background-color: $primary;
+    color: white;
+    font-family: $font-text;
+    font-weight: 700;
   }
 }
 

@@ -23,7 +23,7 @@ h3 {
 
 p {
   font-family: "Lato", sans-serif;
-  font-size: 24px;
+  font-size: 12px;
   color: #272a31;
 }
 
@@ -70,7 +70,6 @@ header .nav-link {
   font-weight: 700;
 }
 .introduction .content {
-  font-size: 12px;
   background-color: rgba(7, 113, 184, 0.3);
 }
 .introduction .date {
@@ -81,6 +80,33 @@ header .nav-link {
 }
 .introduction .place {
   font-size: 12px;
+}
+
+.program {
+  background-image: url("../../assets/imgs/Black-background-metal-iphone-wallpaper-ilikewallpaper_com.jpg");
+  color: white;
+}
+.program h3 {
+  color: white;
+  border-bottom: #0771b8 1px solid;
+}
+.program .topic {
+  color: #0771b8;
+  font-weight: bold;
+  font-family: cocogoose, sans-serif;
+}
+.program p {
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+.program .row {
+  background-color: rgba(211, 211, 211, 0.4);
+}
+.program button {
+  background-color: #0771b8;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
 }
 
 .transition .letter-E {
