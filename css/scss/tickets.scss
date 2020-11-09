@@ -13,7 +13,7 @@
 .step1 {
   display: grid;
   grid-template: repeat(4, auto) / repeat(4, auto);
-  border: 5px solid white;
+  border: 10px solid black;
 
   .item {
     text-align: center;
@@ -33,6 +33,6 @@
 }
 
 .bordered {
-  border-image: linear-gradient(to bottom right, red 1%, white 1%, blue 1%);
+  border-image: linear-gradient(-45deg, red 1px, white 1px, blue 1px) 1 stretch repeat;
   border-image-slice: 1;
 }
