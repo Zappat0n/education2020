@@ -8,6 +8,29 @@
   src: url("../../assets/fonts/cocogoose-light.ttf");
   font-weight: 400;
 }
+h2 {
+  font-family: cocogoose, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #0771b8;
+}
+
+h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  color: #272a31;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  color: #272a31;
+}
+
+.content {
+  border: solid 1px white;
+}
+
 body {
   max-width: 1024px;
   background: lightgray url("../../assets/imgs/ilustracion_colegio_elan_transparent.png") no-repeat fixed center;
@@ -15,10 +38,13 @@ body {
 }
 
 header .mobile-navbar {
-  color: #0771b8;
+  color: #272a31;
+}
+header .dropdown-toggle::after {
+  display: none;
 }
 header .dropdown i {
-  color: #0771b8;
+  color: #272a31;
 }
 header .dropdown .dropdown-item {
   color: #0771b8;
@@ -34,7 +60,7 @@ header .nav-link {
 }
 .introduction .intro {
   font-family: "Lato", sans-serif;
-  color: #ec5242;
+  color: #0771b8;
   font-size: 20px;
   font-weight: 400;
 }
@@ -48,6 +74,8 @@ header .nav-link {
   background-color: rgba(7, 113, 184, 0.3);
 }
 .introduction .date {
+  font-family: cocogoose, sans-serif;
+  color: #272a31;
   font-size: 22px;
   font-weight: 700;
 }

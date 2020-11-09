@@ -20,6 +20,9 @@ $black: #272a31;
 $red: rgba(236, 82, 66, 1); //#EC5242
 $grey: #d3d3d3;
 $blue: rgba(7, 113, 184, 1); //#0771B8
+$font-titles : cocogoose, sans-serif;
+$font-text: 'Lato', sans-serif;
+$primary: $blue;
 
 @mixin topLeft ($top, $left) {
   top: $top;
@@ -41,6 +44,29 @@ $blue: rgba(7, 113, 184, 1); //#0771B8
 
 /////////////// SCSS
 
+h2 {
+  font-family: $font-titles;
+  font-size: 32px;
+  font-weight: 700;
+  color: $primary;
+}
+
+h3 {
+  font-family: $font-text;
+  font-size: 24px;
+  color: $black;
+}
+
+p {
+  font-family: $font-text;
+  font-size: 24px;
+  color: $black;
+}
+
+.content {
+  border: solid 1px white;
+}
+
 body {
   max-width: 1024px;
   background: lightgray url("../../assets/imgs/ilustracion_colegio_elan_transparent.png") no-repeat fixed center;
@@ -49,12 +75,16 @@ body {
 
 header {
   .mobile-navbar {
-    color: $blue;
+    color: $black;
+  }
+
+  .dropdown-toggle::after {
+    display: none;
   }
 
   .dropdown {
     i {
-      color: $blue;
+      color: $black;
     }
 
     .dropdown-item {
@@ -73,11 +103,11 @@ header {
   font-family: cocogoose, sans-serif;
 
   .intro {
-    font-family: 'Lato', sans-serif;
+    font-family: $font-text;
     //background-image: linear-gradient(to bottom right, rgb(255 0 0), transparent, black);
     //-webkit-background-clip: text;
     //-webkit-text-fill-color: transparent;
-    color: $red;
+    color: $primary;
     //text-shadow: -1px 0 lightgray, 0 1px lightgray, 1px 0 lightgray, 0 -1px lightgray;
     font-size: 20px;
     font-weight: 400;
@@ -100,6 +130,8 @@ header {
   }
 
   .date {
+    font-family: $font-titles;
+    color: $black;
     font-size: 22px;
     font-weight: 700;
   }
