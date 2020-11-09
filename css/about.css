@@ -67,6 +67,10 @@ footer .top-footer h3 {
   color: white;
 }
 
+h2 {
+  text-align: center;
+}
+
 .intro {
   font-family: "Lato", sans-serif;
   color: #0771b8;
