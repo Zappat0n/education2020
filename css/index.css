@@ -124,10 +124,14 @@ footer .top-footer h3 {
   background-color: rgba(211, 211, 211, 0.4);
 }
 
+.speaker .chess {
+  width: 100%;
+}
 .speaker .photo {
   position: absolute;
   top: 20px;
   left: 33px;
+  width: 100%;
 }
 .speaker .name {
   font-family: "Lato", sans-serif;
