@@ -1,0 +1,16 @@
+@import "./styles.scss";
+
+.step {
+  border: solid 1px white;
+  border-radius: 20px;
+
+  li {
+    color: $red;
+    list-style-position: outside;
+  }
+}
+
+.step1 {
+  display: grid;
+  grid-template: repeat(4, auto) / repeat(4, auto);
+}
