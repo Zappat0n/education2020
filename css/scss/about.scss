@@ -11,3 +11,19 @@
   display: block;
   margin: 0 auto;
 }
+
+.past-events .year {
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .tag {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    width: 90%;
+    text-align: center;
+  }
+}
