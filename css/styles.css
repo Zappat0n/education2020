@@ -55,3 +55,10 @@ header .nav-link {
   color: #0771b8;
   font: 700 16px/20px cocogoose, sans-serif;
 }
+
+footer .top-footer {
+  background-color: lightgray;
+}
+footer .top-footer h3 {
+  color: white;
+}

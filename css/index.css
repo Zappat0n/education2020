@@ -56,6 +56,13 @@ header .nav-link {
   font: 700 16px/20px cocogoose, sans-serif;
 }
 
+footer .top-footer {
+  background-color: lightgray;
+}
+footer .top-footer h3 {
+  color: white;
+}
+
 .introduction {
   font-family: cocogoose, sans-serif;
 }

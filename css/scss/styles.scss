@@ -102,3 +102,13 @@ header {
     font: 700 16px/20px cocogoose, sans-serif;
   }
 }
+
+footer {
+  .top-footer {
+    background-color: $secundary;
+
+    h3 {
+      color: white;
+    }
+  }
+}
