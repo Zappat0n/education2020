@@ -4,9 +4,32 @@ h2 {
   text-align: center;
 }
 
-.logo img {
-  display: block;
-  margin: 0 auto;
+.content {
+  @media screen and (min-width: 768px) {
+    width: 75%;
+  }
+}
+
+.contact {
+  span {
+    display: block;
+
+    @media screen and (min-width: 768px) {
+      display: inline;
+    }
+  }
+}
+
+.logo {
+  @media screen and (min-width: 768px) {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 .past-events .year {

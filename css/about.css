@@ -15,9 +15,12 @@ h2 {
   color: #0771b8;
   margin: auto;
 }
+h2 span {
+  display: block;
+}
 @media screen and (min-width: 768px) {
   h2 {
-    font-size: 48px;
+    font-size: 64px;
   }
 }
 
@@ -50,6 +53,11 @@ p {
   color: #0771b8;
   font-size: 20px;
   font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+  .intro {
+    font-size: 30px;
+  }
 }
 
 .content {
@@ -106,6 +114,27 @@ h2 {
   text-align: center;
 }
 
+@media screen and (min-width: 768px) {
+  .content {
+    width: 75%;
+  }
+}
+
+.contact span {
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .contact span {
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
 .logo img {
   display: block;
   margin: 0 auto;

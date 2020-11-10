@@ -15,9 +15,12 @@ h2 {
   color: #0771b8;
   margin: auto;
 }
+h2 span {
+  display: block;
+}
 @media screen and (min-width: 768px) {
   h2 {
-    font-size: 48px;
+    font-size: 64px;
   }
 }
 
@@ -113,9 +116,6 @@ footer .top-footer h3 {
 .introduction h2 {
   width: 100%;
   text-align: left;
-}
-.introduction h2 span {
-  display: block;
 }
 .introduction .title {
   color: #ec5242;
