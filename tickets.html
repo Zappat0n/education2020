@@ -18,29 +18,28 @@
   </head>
   <body class = "container-fluid">
     <header>
-      <nav class="mobile-navbar navbar navbar-expand sticky-top p-2 border-0">
+      <nav class="mobile-navbar navbar navbar-expand p-2 border-0">
         <div class="dropdown d-md-none">
           <button class="btn btn-secondary dropdown-toggle bg-transparent border-0 p-1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bars fa-2x"></i>
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="./index.html">Main page</a>
             <a class="dropdown-item" href="./about.html">About</a>
+            <a class="dropdown-item" href="./tickets.html">Tickets</a>
           </div>
         </div>
       </nav>
       
-      <nav class="desktop-navbar navbar navbar-expand sticky-top justify-content-between px-0 d-none">
-        <a href="" class="navbar-brand"><img src="./assets/imgs/logosELAN-01A.png" width="200" alt="LOGO"></a>
+      <nav class="desktop-navbar navbar navbar-expand fixed-top w-100 justify-content-between px-0 d-none d-md-flex bg-white">
+        <a href="http://elanmontessori.org" class="navbar-brand ml-5 pl-5"><img src="./assets/imgs/logosELAN-01A.png" width="200" alt="LOGO"></a>
         <ul class="nav justify-content-around px-5 w-50 d-none d-md-flex">
           <li class="nav-item"><a href="./about.html" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="./tickets.html" class="nav-link">Tickets</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Program</a></li>
+          <li class="nav-item"><a href="./tickets.html" class="nav-link border b">Tickets</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-        <section class="tickets d-flex align-items-center flex-column">
+        <section class="tickets d-flex align-items-center flex-column pt-md-5 mt-md-5">
           <h3 class="my-4">Select Tickets</h3>
           <div class="step d-flex align-items-center pt-3 pb-1">
             <ul>
