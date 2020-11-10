@@ -73,6 +73,10 @@ p {
   font-weight: 700;
 }
 
+main {
+  padding-top: 150px;
+}
+
 body {
   max-width: 1024px;
   background: lightgray url("../../assets/imgs/ilustracion_colegio_elan_transparent.png") no-repeat fixed center;
@@ -95,6 +99,10 @@ header .dropdown .dropdown-item {
 header .nav-link {
   color: #0771b8;
   font: 700 16px/20px cocogoose, sans-serif;
+}
+header .nav-black {
+  background-color: black;
+  color: white;
 }
 
 footer .top-footer {

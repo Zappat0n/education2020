@@ -108,6 +108,10 @@ p {
   font-weight: 700;
 }
 
+main {
+  padding-top: 150px;
+}
+
 body {
   max-width: 1024px;
   background: lightgray url("../../assets/imgs/ilustracion_colegio_elan_transparent.png") no-repeat fixed center;
@@ -138,6 +142,12 @@ header {
     color: $blue;
     font: 700 16px/20px cocogoose, sans-serif;
   }
+
+  .nav-black {
+    background-color: black;
+    color: white;
+  }
+
 }
 
 footer {
