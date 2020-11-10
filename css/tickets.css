@@ -82,11 +82,13 @@ p {
 
 body {
   max-width: 1024px;
-  background: lightgray url("../../assets/imgs/ilustracion_colegio_elan_transparent.png") no-repeat fixed center;
+  background: url("../../assets/imgs/ilustracion_colegio_elan_transparent.png") no-repeat center center fixed;
   background-size: cover;
-  margin: 0 auto;
 }
 
+header {
+  max-width: 1024px;
+}
 header .mobile-navbar {
   color: #272a31;
 }
@@ -107,6 +109,9 @@ header .nav-link {
 header .nav-black {
   background-color: black;
   color: white;
+}
+header .desktop-navbar {
+  max-width: 1024px;
 }
 
 footer .top-footer {
