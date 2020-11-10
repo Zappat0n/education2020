@@ -3,15 +3,13 @@
 .introduction {
   font-family: cocogoose, sans-serif;
 
-  .intro {
-    font-family: $font-text;
-    //background-image: linear-gradient(to bottom right, rgb(255 0 0), transparent, black);
-    //-webkit-background-clip: text;
-    //-webkit-text-fill-color: transparent;
-    color: $primary;
-    //text-shadow: -1px 0 lightgray, 0 1px lightgray, 1px 0 lightgray, 0 -1px lightgray;
-    font-size: 20px;
-    font-weight: 400;
+  h2 {
+    width: 100%;
+    text-align: left;
+
+    span {
+      display: block;
+    }
   }
 
   .title {
@@ -39,6 +37,7 @@
 
 .program {
   background-image: url("../../assets/imgs/Black-background-metal-iphone-wallpaper-ilikewallpaper_com.jpg");
+  background-repeat: repeat-x;
   color: white;
 
   h3 {
@@ -58,6 +57,19 @@
 
   .row {
     background-color: $grey-transparent;
+  }
+
+  .program-table {
+    @media screen and (min-width: 768px) {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 5px;
+      //width: 70%;
+
+      .row {
+        max-width: 150px;
+      }
+    }
   }
 }
 

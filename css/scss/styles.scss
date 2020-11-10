@@ -52,6 +52,10 @@ h2 {
   font-weight: 700;
   color: $primary;
   margin: auto;
+
+  @media screen and (min-width: 768px) {
+    font-size: 48px;
+  }
 }
 
 h3 {
@@ -60,12 +64,31 @@ h3 {
   font-weight: bold;
   color: $black;
   box-shadow: 0 24px 4px -24px $primary;
+
+  @media screen and (min-width: 768px) {
+    font-size: 30px;
+  }
 }
 
 p {
   font-family: $font-text;
   font-size: 12px;
   color: $black;
+
+  @media screen and (min-width: 768px) {
+    font-size: 15px;
+  }
+}
+
+.intro {
+  font-family: $font-text;
+  color: $primary;
+  font-size: 20px;
+  font-weight: 400;
+
+  @media screen and (min-width: 768px) {
+    font-size: 30px;
+  }
 }
 
 .content {

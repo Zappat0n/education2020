@@ -15,6 +15,11 @@ h2 {
   color: #0771b8;
   margin: auto;
 }
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 48px;
+  }
+}
 
 h3 {
   font-family: "Lato", sans-serif;
@@ -23,11 +28,33 @@ h3 {
   color: #272a31;
   box-shadow: 0 24px 4px -24px #0771b8;
 }
+@media screen and (min-width: 768px) {
+  h3 {
+    font-size: 30px;
+  }
+}
 
 p {
   font-family: "Lato", sans-serif;
   font-size: 12px;
   color: #272a31;
+}
+@media screen and (min-width: 768px) {
+  p {
+    font-size: 15px;
+  }
+}
+
+.intro {
+  font-family: "Lato", sans-serif;
+  color: #0771b8;
+  font-size: 20px;
+  font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+  .intro {
+    font-size: 30px;
+  }
 }
 
 .content {
