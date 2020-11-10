@@ -116,7 +116,10 @@ main {
 
 body {
   max-width: 1024px;
-  background: url("../../assets/imgs/ilustracion_colegio_elan_transparent.png") no-repeat center center fixed;
+  background-image: url("../../assets/imgs/ilustracion_colegio_elan_transparent.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
