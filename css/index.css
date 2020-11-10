@@ -73,8 +73,10 @@ p {
   font-weight: 700;
 }
 
-main {
-  padding-top: 150px;
+@media screen and (min-width: 768px) {
+  main {
+    padding-top: 150px;
+  }
 }
 
 body {
@@ -159,6 +161,9 @@ footer .top-footer h3 {
 }
 .program .row {
   background-color: rgba(211, 211, 211, 0.4);
+}
+.program .program-table img {
+  width: 50px;
 }
 @media screen and (min-width: 768px) {
   .program .program-table {
