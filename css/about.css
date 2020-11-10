@@ -15,9 +15,6 @@ h2 {
   color: #0771b8;
   margin: auto;
 }
-h2 span {
-  display: block;
-}
 @media screen and (min-width: 768px) {
   h2 {
     font-size: 64px;
@@ -35,6 +32,10 @@ h3 {
   h3 {
     font-size: 30px;
   }
+}
+
+span {
+  display: block;
 }
 
 p {
@@ -83,6 +84,7 @@ body {
   max-width: 1024px;
   background: lightgray url("../../assets/imgs/ilustracion_colegio_elan_transparent.png") no-repeat fixed center;
   background-size: cover;
+  margin: 0 auto;
 }
 
 header .mobile-navbar {

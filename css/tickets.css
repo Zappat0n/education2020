@@ -84,6 +84,7 @@ body {
   max-width: 1024px;
   background: lightgray url("../../assets/imgs/ilustracion_colegio_elan_transparent.png") no-repeat fixed center;
   background-size: cover;
+  margin: 0 auto;
 }
 
 header .mobile-navbar {
