@@ -53,10 +53,6 @@ h2 {
   color: $primary;
   margin: auto;
 
-  span {
-    display: block;
-  }
-
   @media screen and (min-width: 768px) {
     font-size: 64px;
   }
@@ -72,6 +68,10 @@ h3 {
   @media screen and (min-width: 768px) {
     font-size: 30px;
   }
+}
+
+span {
+  display: block;
 }
 
 p {

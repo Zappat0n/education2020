@@ -15,9 +15,6 @@ h2 {
   color: #0771b8;
   margin: auto;
 }
-h2 span {
-  display: block;
-}
 @media screen and (min-width: 768px) {
   h2 {
     font-size: 64px;
@@ -35,6 +32,10 @@ h3 {
   h3 {
     font-size: 30px;
   }
+}
+
+span {
+  display: block;
 }
 
 p {
@@ -152,15 +153,38 @@ footer .top-footer h3 {
 }
 .program .topic {
   color: #0771b8;
-  font-weight: bold;
-  font-family: cocogoose, sans-serif;
+  font-weight: 900;
+}
+.program .card-text {
+  padding-left: 40px;
+}
+@media screen and (min-width: 768px) {
+  .program .card-text {
+    padding-left: 0;
+  }
 }
 .program p {
-  font-family: "Lato", sans-serif;
   color: white;
 }
 .program .row {
   background-color: rgba(211, 211, 211, 0.4);
+  /*
+      .img {
+        @media screen and (min-width: 768px) {
+          height: 33%;
+        }
+      }
+
+      .topic {
+        @media screen and (min-width: 768px) {
+            //height: 33%;
+        }
+      }
+      .card-text {
+        @media screen and (min-width: 768px) {
+              //height: 33%;
+        }      
+      }*/
 }
 .program .program-table img {
   width: 50px;

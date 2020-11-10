@@ -41,18 +41,41 @@
   }
 
   .topic {
-    color: $primary;
-    font-weight: bold;
-    font-family: $font-titles;
+    color: $blue;
+    font-weight: 900;
+  }
+
+  .card-text {
+    padding-left: 40px;
+
+    @media screen and (min-width: 768px) {
+      padding-left: 0;
+    }
   }
 
   p {
-    font-family: $font-text;
     color: white;
   }
 
   .row {
     background-color: $grey-transparent;
+/*
+    .img {
+      @media screen and (min-width: 768px) {
+        height: 33%;
+      }
+    }
+
+    .topic {
+      @media screen and (min-width: 768px) {
+          //height: 33%;
+      }
+    }
+    .card-text {
+      @media screen and (min-width: 768px) {
+            //height: 33%;
+      }      
+    }*/
   }
 
   .program-table {

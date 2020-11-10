@@ -2,7 +2,8 @@
 
 .step {
   border: solid 1px white;
-  border-radius: 20px;
+  border-radius: 200px;
+  background-color: $secundary;
 
   ul {
     width: 40%;
@@ -12,6 +13,7 @@
   li {
     color: $red;
     list-style-position: outside;
+    font-weight: bold;
   }
 }
 
@@ -38,7 +40,7 @@
 }
 
 .bordered {
-  border-image: linear-gradient(-45deg, red 1px, white 1px, blue 1px) 1 stretch repeat;
+  border-image: linear-gradient(-45deg, red 1px, white 1px, $blue 1px) 1 stretch repeat;
   border-image-slice: 1;
 }
 
@@ -46,5 +48,6 @@
   .title {
     width: 100%;
     background-color: $secundary;
+    border: 1px solid white;
   }
 }

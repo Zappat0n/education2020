@@ -15,9 +15,6 @@ h2 {
   color: #0771b8;
   margin: auto;
 }
-h2 span {
-  display: block;
-}
 @media screen and (min-width: 768px) {
   h2 {
     font-size: 64px;
@@ -35,6 +32,10 @@ h3 {
   h3 {
     font-size: 30px;
   }
+}
+
+span {
+  display: block;
 }
 
 p {
@@ -73,8 +74,10 @@ p {
   font-weight: 700;
 }
 
-main {
-  padding-top: 150px;
+@media screen and (min-width: 768px) {
+  main {
+    padding-top: 150px;
+  }
 }
 
 body {
@@ -120,7 +123,8 @@ footer .top-footer h3 {
 
 .step {
   border: solid 1px white;
-  border-radius: 20px;
+  border-radius: 200px;
+  background-color: lightgray;
 }
 .step ul {
   width: 40%;
@@ -129,6 +133,7 @@ footer .top-footer h3 {
 .step li {
   color: #ec5242;
   list-style-position: outside;
+  font-weight: bold;
 }
 
 .step1 {
@@ -151,11 +156,12 @@ footer .top-footer h3 {
 }
 
 .bordered {
-  border-image: linear-gradient(-45deg, red 1px, white 1px, blue 1px) 1 stretch repeat;
+  border-image: linear-gradient(-45deg, red 1px, white 1px, #0771b8 1px) 1 stretch repeat;
   border-image-slice: 1;
 }
 
 .lunch .title {
   width: 100%;
   background-color: lightgray;
+  border: 1px solid white;
 }
