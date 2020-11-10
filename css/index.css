@@ -151,40 +151,23 @@ footer .top-footer h3 {
 .program h3 {
   color: white;
 }
-.program .topic {
+.program .program-table .card-heading {
   color: #0771b8;
   font-weight: 900;
+  margin-left: 1rem;
 }
-.program .card-text {
-  padding-left: 40px;
+.program .program-table .row {
+  background-color: rgba(211, 211, 211, 0.4);
 }
-@media screen and (min-width: 768px) {
-  .program .card-text {
-    padding-left: 0;
-  }
-}
-.program p {
+.program .program-table .card-text {
+  text-align: left;
+  padding-left: 1rem;
   color: white;
 }
-.program .row {
-  background-color: rgba(211, 211, 211, 0.4);
-  /*
-      .img {
-        @media screen and (min-width: 768px) {
-          height: 33%;
-        }
-      }
-
-      .topic {
-        @media screen and (min-width: 768px) {
-            //height: 33%;
-        }
-      }
-      .card-text {
-        @media screen and (min-width: 768px) {
-              //height: 33%;
-        }      
-      }*/
+@media screen and (min-width: 768px) {
+  .program .program-table .card-text {
+    padding-left: 0;
+  }
 }
 .program .program-table img {
   width: 50px;
@@ -192,11 +175,18 @@ footer .top-footer h3 {
 @media screen and (min-width: 768px) {
   .program .program-table {
     display: grid;
+    margin-left: 5%;
+    margin-right: 5%;
     grid-template-columns: repeat(5, 1fr);
     gap: 5px;
   }
-  .program .program-table .row {
-    max-width: 150px;
+  .program .program-table .card-heading {
+    padding: 0;
+    margin: 0;
+  }
+  .program .program-table .card-text {
+    text-align: center;
+    padding: 0.5rem;
   }
 }
 
