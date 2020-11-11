@@ -3,7 +3,7 @@
 .introduction {
   font-family: cocogoose, sans-serif;
 
-  h1 {
+  h2 {
     width: 100%;
     text-align: left;
   }
@@ -34,6 +34,8 @@
 .program {
   background-image: url(".././assets/imgs/3d-grunge-room-interior-with-spotlight-and-smoky-atmosphere-background.jpg");
   color: white;
+  margin: auto;
+  width: 90%;
 
   h3 {
     color: white;
@@ -112,66 +114,53 @@
 
 .transition {
   .letter-E {
+    position: absolute;
+
     @include topLeft(80px, -100%);
   }
 
   .letter-E1 {
-    @include transformLetter(120px, 25%, 32px, 2s);
-
-    @media (min-width: 768px) {
-      @include transformLetter(100px, 27%, 44px, 2s);
-    }
-
     @media (min-width: 1024px) {
-      @include transformLetter(215px, 28vw, 50px, 2s);
+      @include transformLetter(16.6%, 32.5vw, 50px, 2s);
     }
   }
 
   .letter-L {
+    position: absolute;
     top: 200%;
   }
 
   .letter-L1 {
-    @include transformLetter(120px, 35%, 32px, 2s);
-
-    @media (min-width: 768px) {
-      @include transformLetter(100px, 34%, 44px, 2s);
-    }
-
     @media (min-width: 1024px) {
-      @include transformLetter(215px, 34vw, 50px, 2s);
+      @include transformLetter(16.6%, 37.5vw, 50px, 2s);
     }
   }
 
   .letter-A {
+    position: absolute;
+
     @include topLeft(200%, 200%);
   }
 
   .letter-A1 {
     @include transformLetter(120px, 45%, 32px, 2s);
 
-    @media (min-width: 768px) {
-      @include transformLetter(100px, 41%, 44px, 2s);
-    }
-
     @media (min-width: 1024px) {
-      @include transformLetter(215px, 40vw, 50px, 2s);
+      @include transformLetter(16.6%, 42.5vw, 50px, 2s);
     }
   }
 
   .letter-N {
+    position: absolute;
+
     @include topLeft(200%, 50%);
   }
 
   .letter-N1 {
     @include transformLetter(120px, 55%, 32px, 2s);
 
-    @media (min-width: 768px) {
-      @include transformLetter(100px, 48%, 44px, 2s);
-    }
-
     @media (min-width: 1024px) {
-      @include transformLetter(215px, 46vw, 50px, 2s);
+      @include transformLetter(16.6%, 47.5vw, 50px, 2s);
     }
   }
 
@@ -181,7 +170,7 @@
     animation-delay: 6s;
     animation-fill-mode: forwards;
 
-    @include topLeft(185px, 50.5vw);
+    @include topLeft(13.6%, 50.5vw);
 
     img {
       width: 50px;
@@ -190,15 +179,15 @@
 
   @keyframes marble-bounce {
     0% {
-      @include topLeft(185px, 50.5vw);
+      @include topLeft(13.6%, 50.5vw);
     }
 
     60% {
-      @include topLeft(400px, 90vw);
+      @include topLeft(35%, 98vw);
     }
 
     100% {
-      @include topLeft(90%, 90%);
+      @include topLeft(92%, 94vw);
     }
   }
 
@@ -208,7 +197,7 @@
     animation-delay: 8s;
     animation-fill-mode: both;
 
-    @include topLeft(89%, 83%);
+    @include topLeft(91%, 88vw);
   }
 
   .marble-2 {
@@ -217,7 +206,7 @@
     animation-delay: 8.5s;
     animation-fill-mode: both;
 
-    @include topLeft(90%, 78%);
+    @include topLeft(92%, 84vw);
   }
 
   .number2-2 {
@@ -226,7 +215,7 @@
     animation-delay: 9s;
     animation-fill-mode: both;
 
-    @include topLeft(89%, 71%);
+    @include topLeft(91%, 78vw);
   }
 
   @keyframes year-appear {
@@ -238,4 +227,9 @@
       transform: scale(1);
     }
   }
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
 }

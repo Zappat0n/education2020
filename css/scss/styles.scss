@@ -46,7 +46,7 @@ $secundary: $grey;
 
 /////////////// SCSS
 
-h2 {
+h1 {
   font-family: $font-titles;
   font-size: 32px;
   font-weight: 700;
@@ -117,10 +117,11 @@ main {
 body {
   max-width: 1024px;
   background-image: url(".././assets/imgs/ilustracion_colegio_elan_transparent.png");
+  //background-image: url(".././assets/imgs/ilustracion_colegio_elan.png");
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto 100%;
 }
 
 header {

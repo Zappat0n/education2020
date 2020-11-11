@@ -8,7 +8,7 @@
   src: url("../../assets/fonts/cocogoose-light.ttf");
   font-weight: 400;
 }
-h1 {
+h2 {
   font-family: cocogoose, sans-serif;
   font-size: 32px;
   font-weight: 700;
@@ -16,7 +16,7 @@ h1 {
   margin: auto;
 }
 @media screen and (min-width: 768px) {
-  h1 {
+  h2 {
     font-size: 64px;
   }
 }
@@ -134,7 +134,7 @@ footer .top-footer h3 {
 .introduction {
   font-family: cocogoose, sans-serif;
 }
-.introduction h1 {
+.introduction h2 {
   width: 100%;
   text-align: left;
 }
@@ -156,6 +156,8 @@ footer .top-footer h3 {
 .program {
   background-image: url(".././assets/imgs/3d-grunge-room-interior-with-spotlight-and-smoky-atmosphere-background.jpg");
   color: white;
+  margin: auto;
+  width: 90%;
 }
 .program h3 {
   color: white;
@@ -221,32 +223,9 @@ footer .top-footer h3 {
 }
 
 .transition .letter-E {
+  position: absolute;
   top: 80px;
   left: -100%;
-}
-.transition .letter-E1 {
-  position: absolute;
-  transform: rotate(360deg);
-  transition: top 2s, left 2s, transform 2s;
-  transition-timing-function: ease-in-out;
-  top: 120px;
-  left: 25%;
-}
-.transition .letter-E1 img {
-  width: 32px;
-}
-@media (min-width: 768px) {
-  .transition .letter-E1 {
-    position: absolute;
-    transform: rotate(360deg);
-    transition: top 2s, left 2s, transform 2s;
-    transition-timing-function: ease-in-out;
-    top: 100px;
-    left: 27%;
-  }
-  .transition .letter-E1 img {
-    width: 44px;
-  }
 }
 @media (min-width: 1024px) {
   .transition .letter-E1 {
@@ -254,39 +233,16 @@ footer .top-footer h3 {
     transform: rotate(360deg);
     transition: top 2s, left 2s, transform 2s;
     transition-timing-function: ease-in-out;
-    top: 215px;
-    left: 28vw;
+    top: 16.6%;
+    left: 32.5vw;
   }
   .transition .letter-E1 img {
     width: 50px;
   }
 }
 .transition .letter-L {
-  top: 200%;
-}
-.transition .letter-L1 {
   position: absolute;
-  transform: rotate(360deg);
-  transition: top 2s, left 2s, transform 2s;
-  transition-timing-function: ease-in-out;
-  top: 120px;
-  left: 35%;
-}
-.transition .letter-L1 img {
-  width: 32px;
-}
-@media (min-width: 768px) {
-  .transition .letter-L1 {
-    position: absolute;
-    transform: rotate(360deg);
-    transition: top 2s, left 2s, transform 2s;
-    transition-timing-function: ease-in-out;
-    top: 100px;
-    left: 34%;
-  }
-  .transition .letter-L1 img {
-    width: 44px;
-  }
+  top: 200%;
 }
 @media (min-width: 1024px) {
   .transition .letter-L1 {
@@ -294,14 +250,15 @@ footer .top-footer h3 {
     transform: rotate(360deg);
     transition: top 2s, left 2s, transform 2s;
     transition-timing-function: ease-in-out;
-    top: 215px;
-    left: 34vw;
+    top: 16.6%;
+    left: 37.5vw;
   }
   .transition .letter-L1 img {
     width: 50px;
   }
 }
 .transition .letter-A {
+  position: absolute;
   top: 200%;
   left: 200%;
 }
@@ -316,33 +273,21 @@ footer .top-footer h3 {
 .transition .letter-A1 img {
   width: 32px;
 }
-@media (min-width: 768px) {
-  .transition .letter-A1 {
-    position: absolute;
-    transform: rotate(360deg);
-    transition: top 2s, left 2s, transform 2s;
-    transition-timing-function: ease-in-out;
-    top: 100px;
-    left: 41%;
-  }
-  .transition .letter-A1 img {
-    width: 44px;
-  }
-}
 @media (min-width: 1024px) {
   .transition .letter-A1 {
     position: absolute;
     transform: rotate(360deg);
     transition: top 2s, left 2s, transform 2s;
     transition-timing-function: ease-in-out;
-    top: 215px;
-    left: 40vw;
+    top: 16.6%;
+    left: 42.5vw;
   }
   .transition .letter-A1 img {
     width: 50px;
   }
 }
 .transition .letter-N {
+  position: absolute;
   top: 200%;
   left: 50%;
 }
@@ -357,27 +302,14 @@ footer .top-footer h3 {
 .transition .letter-N1 img {
   width: 32px;
 }
-@media (min-width: 768px) {
-  .transition .letter-N1 {
-    position: absolute;
-    transform: rotate(360deg);
-    transition: top 2s, left 2s, transform 2s;
-    transition-timing-function: ease-in-out;
-    top: 100px;
-    left: 48%;
-  }
-  .transition .letter-N1 img {
-    width: 44px;
-  }
-}
 @media (min-width: 1024px) {
   .transition .letter-N1 {
     position: absolute;
     transform: rotate(360deg);
     transition: top 2s, left 2s, transform 2s;
     transition-timing-function: ease-in-out;
-    top: 215px;
-    left: 46vw;
+    top: 16.6%;
+    left: 47.5vw;
   }
   .transition .letter-N1 img {
     width: 50px;
@@ -388,7 +320,7 @@ footer .top-footer h3 {
   animation: marble-bounce 2s ease-in;
   animation-delay: 6s;
   animation-fill-mode: forwards;
-  top: 185px;
+  top: 13.6%;
   left: 50.5vw;
 }
 .transition .marble img {
@@ -396,16 +328,16 @@ footer .top-footer h3 {
 }
 @keyframes marble-bounce {
   0% {
-    top: 185px;
+    top: 13.6%;
     left: 50.5vw;
   }
   60% {
-    top: 400px;
-    left: 90vw;
+    top: 35%;
+    left: 98vw;
   }
   100% {
-    top: 90%;
-    left: 90%;
+    top: 92%;
+    left: 94vw;
   }
 }
 .transition .number2 {
@@ -413,24 +345,24 @@ footer .top-footer h3 {
   animation: year-appear 0.5s ease-in;
   animation-delay: 8s;
   animation-fill-mode: both;
-  top: 89%;
-  left: 83%;
+  top: 91%;
+  left: 88vw;
 }
 .transition .marble-2 {
   position: absolute;
   animation: year-appear 0.5s ease-in;
   animation-delay: 8.5s;
   animation-fill-mode: both;
-  top: 90%;
-  left: 78%;
+  top: 92%;
+  left: 84vw;
 }
 .transition .number2-2 {
   position: absolute;
   animation: year-appear 0.5s ease-in;
   animation-delay: 9s;
   animation-fill-mode: both;
-  top: 89%;
-  left: 71%;
+  top: 91%;
+  left: 78vw;
 }
 @keyframes year-appear {
   0% {
@@ -439,4 +371,9 @@ footer .top-footer h3 {
   100% {
     transform: scale(1);
   }
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
 }
