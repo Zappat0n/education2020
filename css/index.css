@@ -170,7 +170,7 @@ footer .top-footer h3 {
   font-weight: 900;
   margin-left: 1rem;
 }
-.program .program-table .row {
+.program .program-table .card {
   background-color: rgba(211, 211, 211, 0.4);
 }
 .program .program-table .card-text {
