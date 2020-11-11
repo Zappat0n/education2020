@@ -11,7 +11,7 @@ The [project](https://www.notion.so/HTML-CSS-capstone-project-Conference-page-ed
 I have selected a Positive Discipline education event taking place in Murcia (Spain) in 2020.
 
 
-![screenshot](./assets/imgs/screenshot_mobile.png) ![screenshot](./assets/imgs/screenshot_desktop.png)
+![screenshot](./assets/imgs/screenshot_mobile.png)   ![screenshot](./assets/imgs/screenshot_desktop.png)
 
 You can find the original project specification at: [www.behance.net](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
