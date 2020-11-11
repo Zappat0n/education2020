@@ -12,15 +12,12 @@
   font-weight: 400;
 }
 
-// LATO: font-family: 'Lato', sans-serif;
-
 /////////////// VARIABLES
 
 $black: #272a31;
 $red: rgba(236, 82, 66, 1); //#EC5242
 $grey:rgba(211, 211, 211, 1);    //#d3d3d3;
 $grey-transparent: rgba(211, 211, 211, 0.3);
-$blue: rgba(7, 113, 184, 1); //#0771B8
 $font-titles : cocogoose, sans-serif;
 $font-text: 'Lato', sans-serif;
 $primary: $red;
@@ -126,7 +123,6 @@ main {
 
 body {
   background: $secundary url(".././assets/imgs/ilustracion_colegio_elan_transparent.png");
-  //background-image: url(".././assets/imgs/ilustracion_colegio_elan.png");
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -159,7 +155,7 @@ header {
   }
 
   .nav-black {
-    background-color: black;
+    background-color: $black;
 
     a {
       color: white;

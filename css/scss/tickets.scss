@@ -20,7 +20,7 @@
 .step1 {
   display: grid;
   grid-template: repeat(4, auto) / repeat(4, auto);
-  border: 10px solid black;
+  border: 10px solid $black;
 
   .item {
     text-align: center;
