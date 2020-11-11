@@ -88,7 +88,7 @@ p {
 a {
   font-weight: bold;
   color: $black;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .intro {
@@ -166,10 +166,6 @@ header {
   .nav-white {
     color: $primary;
     background-color: white;
-
-    a {
-      text-decoration: none;
-    }
   }
 
   .desktop-navbar {

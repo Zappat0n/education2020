@@ -52,7 +52,7 @@ p {
 a {
   font-weight: bold;
   color: #272a31;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .intro {
@@ -122,9 +122,6 @@ header .nav-black {
 header .nav-white {
   color: #ec5242;
   background-color: white;
-}
-header .nav-white a {
-  text-decoration: none;
 }
 header .desktop-navbar {
   max-width: 1024px;

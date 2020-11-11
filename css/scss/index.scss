@@ -49,6 +49,10 @@
       background-color: $primary-transparent;
     }
 
+    .card:hover {
+      transform: scale(1.1);
+    }
+
     .card-text {
       text-align: left;
       padding-left: 1rem;

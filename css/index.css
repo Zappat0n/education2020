@@ -52,7 +52,7 @@ p {
 a {
   font-weight: bold;
   color: #272a31;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .intro {
@@ -123,9 +123,6 @@ header .nav-white {
   color: #ec5242;
   background-color: white;
 }
-header .nav-white a {
-  text-decoration: none;
-}
 header .desktop-navbar {
   max-width: 1024px;
   margin: 0 auto;
@@ -179,6 +176,9 @@ footer .top-footer h3 {
 }
 .program .program-table .card {
   background-color: rgba(211, 211, 211, 0.3);
+}
+.program .program-table .card:hover {
+  transform: scale(1.1);
 }
 .program .program-table .card-text {
   text-align: left;
