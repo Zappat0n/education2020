@@ -160,6 +160,12 @@ header {
     max-width: 1024px;
     margin: 0 auto;
   }
+
+  .nav-mypage {
+    @media screen and (min-width: 1024px) {
+      display: block !important;
+    }
+  }
 }
 
 footer {

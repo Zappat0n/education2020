@@ -8,7 +8,7 @@
   src: url("../../assets/fonts/cocogoose-light.ttf");
   font-weight: 400;
 }
-h2 {
+h1 {
   font-family: cocogoose, sans-serif;
   font-size: 32px;
   font-weight: 700;
@@ -16,7 +16,7 @@ h2 {
   margin: auto;
 }
 @media screen and (min-width: 768px) {
-  h2 {
+  h1 {
     font-size: 64px;
   }
 }
@@ -117,6 +117,11 @@ header .desktop-navbar {
   max-width: 1024px;
   margin: 0 auto;
 }
+@media screen and (min-width: 1024px) {
+  header .nav-mypage {
+    display: block !important;
+  }
+}
 
 footer .top-footer {
   background-image: url(".././assets/imgs/3d-grunge-room-interior-with-spotlight-and-smoky-atmosphere-background.jpg");
@@ -134,7 +139,7 @@ footer .top-footer h3 {
 .introduction {
   font-family: cocogoose, sans-serif;
 }
-.introduction h2 {
+.introduction h1 {
   width: 100%;
   text-align: left;
 }
@@ -371,6 +376,67 @@ footer .top-footer h3 {
   100% {
     transform: scale(1);
   }
+}
+
+.transform-2 {
+  font: 900 40px/40px cocogoose, sans-serif;
+  color: black;
+}
+.transform-2 .where {
+  display: none;
+}
+.transform-2 .where2 {
+  position: absolute;
+  display: block;
+  color: black;
+  top: -100px;
+  left: 40vw;
+}
+.transform-2 .number2-2 {
+  position: absolute;
+  animation: year-appear 0.5s ease-in;
+  animation-delay: 9s;
+  animation-fill-mode: both;
+  top: 91%;
+  left: 78vw;
+}
+@keyframes year-appear {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.transform-2 .everything {
+  display: none;
+}
+.transform-2 .everything2 {
+  position: absolute;
+  display: block;
+  color: black;
+  top: -100px;
+  left: 40vw;
+}
+.transform-2 .is {
+  display: none;
+}
+.transform-2 .is2 {
+  position: absolute;
+  display: block;
+  color: black;
+  top: -100px;
+  left: 40vw;
+}
+.transform-2 .possible {
+  display: none;
+}
+.transform-2 .possible2 {
+  position: absolute;
+  display: block;
+  color: black;
+  top: -100px;
+  left: 40vw;
 }
 
 footer {

@@ -117,6 +117,11 @@ header .desktop-navbar {
   max-width: 1024px;
   margin: 0 auto;
 }
+@media screen and (min-width: 1024px) {
+  header .nav-mypage {
+    display: block !important;
+  }
+}
 
 footer .top-footer {
   background-image: url(".././assets/imgs/3d-grunge-room-interior-with-spotlight-and-smoky-atmosphere-background.jpg");

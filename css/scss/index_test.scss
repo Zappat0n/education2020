@@ -3,7 +3,7 @@
 .introduction {
   font-family: cocogoose, sans-serif;
 
-  h2 {
+  h1 {
     width: 100%;
     text-align: left;
   }
@@ -226,6 +226,78 @@
     100% {
       transform: scale(1);
     }
+  }
+}
+
+.transform-2 {
+  font: 900 40px/40px $font-titles;
+  color: black;
+
+  .where {
+    display: none;
+  }
+
+  .where2 {
+    position: absolute;
+    display: block;
+    color: black;
+    top: -100px;
+    left: 40vw;
+  }
+
+  .number2-2 {
+    position: absolute;
+    animation: year-appear 0.5s ease-in;
+    animation-delay: 9s;
+    animation-fill-mode: both;
+
+    @include topLeft(91%, 78vw);
+  }
+
+  @keyframes year-appear {
+    0% {
+      transform: scale(0);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .everything {
+    display: none;
+  }
+
+  .everything2 {
+    position: absolute;
+    display: block;
+    color: black;
+    top: -100px;
+    left: 40vw;
+  }
+
+  .is {
+    display: none;
+  }
+
+  .is2 {
+    position: absolute;
+    display: block;
+    color: black;
+    top: -100px;
+    left: 40vw;
+  }
+
+  .possible {
+    display: none;
+  }
+
+  .possible2 {
+    position: absolute;
+    display: block;
+    color: black;
+    top: -100px;
+    left: 40vw;
   }
 }
 
