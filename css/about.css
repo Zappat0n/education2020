@@ -52,7 +52,7 @@ p {
 a {
   font-weight: bold;
   color: #272a31;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .intro {
@@ -80,6 +80,10 @@ a {
   font-weight: 700;
 }
 
+main {
+  max-width: 1024px;
+  margin: 0 auto;
+}
 @media screen and (min-width: 768px) {
   main {
     padding-top: 150px;
@@ -87,7 +91,6 @@ a {
 }
 
 body {
-  max-width: 1024px;
   background: lightgray url(".././assets/imgs/ilustracion_colegio_elan_transparent.png");
   background-position: center;
   background-attachment: fixed;
@@ -95,9 +98,6 @@ body {
   background-size: auto 100%;
 }
 
-header {
-  max-width: 1024px;
-}
 header .mobile-navbar {
   color: #272a31;
 }
@@ -117,18 +117,17 @@ header .nav-link {
 }
 header .nav-black {
   background-color: black;
-  color: lightgray;
+}
+header .nav-black a {
+  color: white;
+}
+header .nav-black a:hover {
+  color: #ec5242;
+  text-decoration: none;
 }
 header .nav-white {
   color: #ec5242;
   background-color: white;
-}
-header .nav-white a {
-  text-decoration: none;
-}
-header .desktop-navbar {
-  max-width: 1024px;
-  margin: 0 auto;
 }
 
 footer .top-footer {
