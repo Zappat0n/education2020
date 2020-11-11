@@ -19,12 +19,13 @@
 $black: #272a31;
 $red: rgba(236, 82, 66, 1); //#EC5242
 $grey:rgba(211, 211, 211, 1);    //#d3d3d3;
-$grey-transparent: rgba(211, 211, 211, 0.4);
+$grey-transparent: rgba(211, 211, 211, 0.3);
 $blue: rgba(7, 113, 184, 1); //#0771B8
 $font-titles : cocogoose, sans-serif;
 $font-text: 'Lato', sans-serif;
-$primary: $blue;
+$primary: $red;
 $secundary: $grey;
+$primary-transparent: $grey-transparent;
 
 @mixin topLeft ($top, $left) {
   top: $top;
@@ -84,6 +85,12 @@ p {
   }
 }
 
+a {
+  font-weight: bold;
+  color: $black;
+  text-decoration: underline;
+}
+
 .intro {
   font-family: $font-text;
   color: $primary;
@@ -97,13 +104,13 @@ p {
 
 .content {
   border: solid 1px white;
-  background-color: rgba(7, 113, 184, 0.3);
+  background-color: $primary-transparent;
   padding: 20px;
 }
 
 .btn {
   background-color: $primary;
-  color: white;
+  color: $secundary;
   font-family: $font-text;
   font-weight: 700;
 }
@@ -116,7 +123,7 @@ main {
 
 body {
   max-width: 1024px;
-  background-image: url(".././assets/imgs/ilustracion_colegio_elan_transparent.png");
+  background: $secundary url(".././assets/imgs/ilustracion_colegio_elan_transparent.png");
   //background-image: url(".././assets/imgs/ilustracion_colegio_elan.png");
   background-position: center;
   background-attachment: fixed;
@@ -141,30 +148,33 @@ header {
     }
 
     .dropdown-item {
-      color: $blue;
+      color: $primary;
       font: 700 16px/20px cocogoose, sans-serif;
     }
   }
 
   .nav-link {
-    color: $blue;
+    color: $primary;
     font: 700 16px/20px cocogoose, sans-serif;
   }
 
   .nav-black {
     background-color: black;
-    color: white;
+    color: $secundary;
+  }
+
+  .nav-white {
+    color: $primary;
+    background-color: white;
+
+    a {
+      text-decoration: none;
+    }
   }
 
   .desktop-navbar {
     max-width: 1024px;
     margin: 0 auto;
-  }
-
-  .nav-mypage {
-    @media screen and (min-width: 1024px) {
-      display: block !important;
-    }
   }
 }
 
@@ -181,7 +191,7 @@ footer {
     }
 
     h3 {
-      color: white;
+      color: $secundary;
     }
   }
 }

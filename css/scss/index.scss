@@ -33,21 +33,20 @@
 
 .program {
   background-image: url(".././assets/imgs/3d-grunge-room-interior-with-spotlight-and-smoky-atmosphere-background.jpg");
-  color: white;
 
   h3 {
-    color: white;
+    color: $secundary;
   }
 
   .program-table {
     .card-heading {
-      color: $blue;
+      color: $primary;
       font-weight: 900;
       margin-left: 1rem;
     }
 
     .card {
-      background-color: $grey-transparent;
+      background-color: $primary-transparent;
     }
 
     .card-text {
@@ -107,135 +106,5 @@
     color: $primary;
     font-style: italic;
     box-shadow: 0 24px 4px -24px $primary;
-  }
-}
-
-.transition {
-  .letter-E {
-    @include topLeft(80px, -100%);
-  }
-
-  .letter-E1 {
-    @include transformLetter(120px, 25%, 32px, 2s);
-
-    @media (min-width: 768px) {
-      @include transformLetter(100px, 27%, 44px, 2s);
-    }
-
-    @media (min-width: 1024px) {
-      @include transformLetter(215px, 28vw, 50px, 2s);
-    }
-  }
-
-  .letter-L {
-    top: 200%;
-  }
-
-  .letter-L1 {
-    @include transformLetter(120px, 35%, 32px, 2s);
-
-    @media (min-width: 768px) {
-      @include transformLetter(100px, 34%, 44px, 2s);
-    }
-
-    @media (min-width: 1024px) {
-      @include transformLetter(215px, 34vw, 50px, 2s);
-    }
-  }
-
-  .letter-A {
-    @include topLeft(200%, 200%);
-  }
-
-  .letter-A1 {
-    @include transformLetter(120px, 45%, 32px, 2s);
-
-    @media (min-width: 768px) {
-      @include transformLetter(100px, 41%, 44px, 2s);
-    }
-
-    @media (min-width: 1024px) {
-      @include transformLetter(215px, 40vw, 50px, 2s);
-    }
-  }
-
-  .letter-N {
-    @include topLeft(200%, 50%);
-  }
-
-  .letter-N1 {
-    @include transformLetter(120px, 55%, 32px, 2s);
-
-    @media (min-width: 768px) {
-      @include transformLetter(100px, 48%, 44px, 2s);
-    }
-
-    @media (min-width: 1024px) {
-      @include transformLetter(215px, 46vw, 50px, 2s);
-    }
-  }
-
-  .marble {
-    position: absolute;
-    animation: marble-bounce 2s ease-in;
-    animation-delay: 6s;
-    animation-fill-mode: forwards;
-
-    @include topLeft(185px, 50.5vw);
-
-    img {
-      width: 50px;
-    }
-  }
-
-  @keyframes marble-bounce {
-    0% {
-      @include topLeft(185px, 50.5vw);
-    }
-
-    60% {
-      @include topLeft(400px, 90vw);
-    }
-
-    100% {
-      @include topLeft(90%, 90%);
-    }
-  }
-
-  .number2 {
-    position: absolute;
-    animation: year-appear 0.5s ease-in;
-    animation-delay: 8s;
-    animation-fill-mode: both;
-
-    @include topLeft(89%, 83%);
-  }
-
-  .marble-2 {
-    position: absolute;
-    animation: year-appear 0.5s ease-in;
-    animation-delay: 8.5s;
-    animation-fill-mode: both;
-
-    @include topLeft(90%, 78%);
-  }
-
-  .number2-2 {
-    position: absolute;
-    animation: year-appear 0.5s ease-in;
-    animation-delay: 9s;
-    animation-fill-mode: both;
-
-    @include topLeft(89%, 71%);
-  }
-
-  @keyframes year-appear {
-    0% {
-      transform: scale(0);
-    }
-
-    100% {
-      transform: scale(1);
-    }
   }
 }

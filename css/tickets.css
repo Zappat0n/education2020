@@ -12,7 +12,7 @@ h1 {
   font-family: cocogoose, sans-serif;
   font-size: 32px;
   font-weight: 700;
-  color: #0771b8;
+  color: #ec5242;
   margin: auto;
 }
 @media screen and (min-width: 768px) {
@@ -26,7 +26,7 @@ h3 {
   font-size: 24px;
   font-weight: bold;
   color: #272a31;
-  box-shadow: 0 24px 4px -24px #0771b8;
+  box-shadow: 0 24px 4px -24px #ec5242;
 }
 @media screen and (min-width: 768px) {
   h3 {
@@ -49,9 +49,15 @@ p {
   }
 }
 
+a {
+  font-weight: bold;
+  color: #272a31;
+  text-decoration: underline;
+}
+
 .intro {
   font-family: "Lato", sans-serif;
-  color: #0771b8;
+  color: #ec5242;
   font-size: 20px;
   font-weight: 400;
 }
@@ -63,13 +69,13 @@ p {
 
 .content {
   border: solid 1px white;
-  background-color: rgba(7, 113, 184, 0.3);
+  background-color: rgba(211, 211, 211, 0.3);
   padding: 20px;
 }
 
 .btn {
-  background-color: #0771b8;
-  color: white;
+  background-color: #ec5242;
+  color: lightgray;
   font-family: "Lato", sans-serif;
   font-weight: 700;
 }
@@ -82,7 +88,7 @@ p {
 
 body {
   max-width: 1024px;
-  background-image: url(".././assets/imgs/ilustracion_colegio_elan_transparent.png");
+  background: lightgray url(".././assets/imgs/ilustracion_colegio_elan_transparent.png");
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -102,16 +108,23 @@ header .dropdown i {
   color: #272a31;
 }
 header .dropdown .dropdown-item {
-  color: #0771b8;
+  color: #ec5242;
   font: 700 16px/20px cocogoose, sans-serif;
 }
 header .nav-link {
-  color: #0771b8;
+  color: #ec5242;
   font: 700 16px/20px cocogoose, sans-serif;
 }
 header .nav-black {
   background-color: black;
-  color: white;
+  color: lightgray;
+}
+header .nav-white {
+  color: #ec5242;
+  background-color: white;
+}
+header .nav-white a {
+  text-decoration: none;
 }
 header .desktop-navbar {
   max-width: 1024px;
@@ -128,7 +141,7 @@ footer .top-footer img {
   width: 100%;
 }
 footer .top-footer h3 {
-  color: white;
+  color: lightgray;
 }
 
 .step {

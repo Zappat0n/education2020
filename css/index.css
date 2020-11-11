@@ -12,7 +12,7 @@ h1 {
   font-family: cocogoose, sans-serif;
   font-size: 32px;
   font-weight: 700;
-  color: #0771b8;
+  color: #ec5242;
   margin: auto;
 }
 @media screen and (min-width: 768px) {
@@ -26,7 +26,7 @@ h3 {
   font-size: 24px;
   font-weight: bold;
   color: #272a31;
-  box-shadow: 0 24px 4px -24px #0771b8;
+  box-shadow: 0 24px 4px -24px #ec5242;
 }
 @media screen and (min-width: 768px) {
   h3 {
@@ -49,9 +49,15 @@ p {
   }
 }
 
+a {
+  font-weight: bold;
+  color: #272a31;
+  text-decoration: underline;
+}
+
 .intro {
   font-family: "Lato", sans-serif;
-  color: #0771b8;
+  color: #ec5242;
   font-size: 20px;
   font-weight: 400;
 }
@@ -63,13 +69,13 @@ p {
 
 .content {
   border: solid 1px white;
-  background-color: rgba(7, 113, 184, 0.3);
+  background-color: rgba(211, 211, 211, 0.3);
   padding: 20px;
 }
 
 .btn {
-  background-color: #0771b8;
-  color: white;
+  background-color: #ec5242;
+  color: lightgray;
   font-family: "Lato", sans-serif;
   font-weight: 700;
 }
@@ -82,7 +88,7 @@ p {
 
 body {
   max-width: 1024px;
-  background-image: url(".././assets/imgs/ilustracion_colegio_elan_transparent.png");
+  background: lightgray url(".././assets/imgs/ilustracion_colegio_elan_transparent.png");
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -102,25 +108,27 @@ header .dropdown i {
   color: #272a31;
 }
 header .dropdown .dropdown-item {
-  color: #0771b8;
+  color: #ec5242;
   font: 700 16px/20px cocogoose, sans-serif;
 }
 header .nav-link {
-  color: #0771b8;
+  color: #ec5242;
   font: 700 16px/20px cocogoose, sans-serif;
 }
 header .nav-black {
   background-color: black;
-  color: white;
+  color: lightgray;
+}
+header .nav-white {
+  color: #ec5242;
+  background-color: white;
+}
+header .nav-white a {
+  text-decoration: none;
 }
 header .desktop-navbar {
   max-width: 1024px;
   margin: 0 auto;
-}
-@media screen and (min-width: 1024px) {
-  header .nav-mypage {
-    display: block !important;
-  }
 }
 
 footer .top-footer {
@@ -133,7 +141,7 @@ footer .top-footer img {
   width: 100%;
 }
 footer .top-footer h3 {
-  color: white;
+  color: lightgray;
 }
 
 .introduction {
@@ -160,18 +168,17 @@ footer .top-footer h3 {
 
 .program {
   background-image: url(".././assets/imgs/3d-grunge-room-interior-with-spotlight-and-smoky-atmosphere-background.jpg");
-  color: white;
 }
 .program h3 {
-  color: white;
+  color: lightgray;
 }
 .program .program-table .card-heading {
-  color: #0771b8;
+  color: #ec5242;
   font-weight: 900;
   margin-left: 1rem;
 }
 .program .program-table .card {
-  background-color: rgba(211, 211, 211, 0.4);
+  background-color: rgba(211, 211, 211, 0.3);
 }
 .program .program-table .card-text {
   text-align: left;
@@ -220,228 +227,7 @@ footer .top-footer h3 {
 }
 .speaker .title {
   font-family: "Lato", sans-serif;
-  color: #0771b8;
+  color: #ec5242;
   font-style: italic;
-  box-shadow: 0 24px 4px -24px #0771b8;
-}
-
-.transition .letter-E {
-  top: 80px;
-  left: -100%;
-}
-.transition .letter-E1 {
-  position: absolute;
-  transform: rotate(360deg);
-  transition: top 2s, left 2s, transform 2s;
-  transition-timing-function: ease-in-out;
-  top: 120px;
-  left: 25%;
-}
-.transition .letter-E1 img {
-  width: 32px;
-}
-@media (min-width: 768px) {
-  .transition .letter-E1 {
-    position: absolute;
-    transform: rotate(360deg);
-    transition: top 2s, left 2s, transform 2s;
-    transition-timing-function: ease-in-out;
-    top: 100px;
-    left: 27%;
-  }
-  .transition .letter-E1 img {
-    width: 44px;
-  }
-}
-@media (min-width: 1024px) {
-  .transition .letter-E1 {
-    position: absolute;
-    transform: rotate(360deg);
-    transition: top 2s, left 2s, transform 2s;
-    transition-timing-function: ease-in-out;
-    top: 215px;
-    left: 28vw;
-  }
-  .transition .letter-E1 img {
-    width: 50px;
-  }
-}
-.transition .letter-L {
-  top: 200%;
-}
-.transition .letter-L1 {
-  position: absolute;
-  transform: rotate(360deg);
-  transition: top 2s, left 2s, transform 2s;
-  transition-timing-function: ease-in-out;
-  top: 120px;
-  left: 35%;
-}
-.transition .letter-L1 img {
-  width: 32px;
-}
-@media (min-width: 768px) {
-  .transition .letter-L1 {
-    position: absolute;
-    transform: rotate(360deg);
-    transition: top 2s, left 2s, transform 2s;
-    transition-timing-function: ease-in-out;
-    top: 100px;
-    left: 34%;
-  }
-  .transition .letter-L1 img {
-    width: 44px;
-  }
-}
-@media (min-width: 1024px) {
-  .transition .letter-L1 {
-    position: absolute;
-    transform: rotate(360deg);
-    transition: top 2s, left 2s, transform 2s;
-    transition-timing-function: ease-in-out;
-    top: 215px;
-    left: 34vw;
-  }
-  .transition .letter-L1 img {
-    width: 50px;
-  }
-}
-.transition .letter-A {
-  top: 200%;
-  left: 200%;
-}
-.transition .letter-A1 {
-  position: absolute;
-  transform: rotate(360deg);
-  transition: top 2s, left 2s, transform 2s;
-  transition-timing-function: ease-in-out;
-  top: 120px;
-  left: 45%;
-}
-.transition .letter-A1 img {
-  width: 32px;
-}
-@media (min-width: 768px) {
-  .transition .letter-A1 {
-    position: absolute;
-    transform: rotate(360deg);
-    transition: top 2s, left 2s, transform 2s;
-    transition-timing-function: ease-in-out;
-    top: 100px;
-    left: 41%;
-  }
-  .transition .letter-A1 img {
-    width: 44px;
-  }
-}
-@media (min-width: 1024px) {
-  .transition .letter-A1 {
-    position: absolute;
-    transform: rotate(360deg);
-    transition: top 2s, left 2s, transform 2s;
-    transition-timing-function: ease-in-out;
-    top: 215px;
-    left: 40vw;
-  }
-  .transition .letter-A1 img {
-    width: 50px;
-  }
-}
-.transition .letter-N {
-  top: 200%;
-  left: 50%;
-}
-.transition .letter-N1 {
-  position: absolute;
-  transform: rotate(360deg);
-  transition: top 2s, left 2s, transform 2s;
-  transition-timing-function: ease-in-out;
-  top: 120px;
-  left: 55%;
-}
-.transition .letter-N1 img {
-  width: 32px;
-}
-@media (min-width: 768px) {
-  .transition .letter-N1 {
-    position: absolute;
-    transform: rotate(360deg);
-    transition: top 2s, left 2s, transform 2s;
-    transition-timing-function: ease-in-out;
-    top: 100px;
-    left: 48%;
-  }
-  .transition .letter-N1 img {
-    width: 44px;
-  }
-}
-@media (min-width: 1024px) {
-  .transition .letter-N1 {
-    position: absolute;
-    transform: rotate(360deg);
-    transition: top 2s, left 2s, transform 2s;
-    transition-timing-function: ease-in-out;
-    top: 215px;
-    left: 46vw;
-  }
-  .transition .letter-N1 img {
-    width: 50px;
-  }
-}
-.transition .marble {
-  position: absolute;
-  animation: marble-bounce 2s ease-in;
-  animation-delay: 6s;
-  animation-fill-mode: forwards;
-  top: 185px;
-  left: 50.5vw;
-}
-.transition .marble img {
-  width: 50px;
-}
-@keyframes marble-bounce {
-  0% {
-    top: 185px;
-    left: 50.5vw;
-  }
-  60% {
-    top: 400px;
-    left: 90vw;
-  }
-  100% {
-    top: 90%;
-    left: 90%;
-  }
-}
-.transition .number2 {
-  position: absolute;
-  animation: year-appear 0.5s ease-in;
-  animation-delay: 8s;
-  animation-fill-mode: both;
-  top: 89%;
-  left: 83%;
-}
-.transition .marble-2 {
-  position: absolute;
-  animation: year-appear 0.5s ease-in;
-  animation-delay: 8.5s;
-  animation-fill-mode: both;
-  top: 90%;
-  left: 78%;
-}
-.transition .number2-2 {
-  position: absolute;
-  animation: year-appear 0.5s ease-in;
-  animation-delay: 9s;
-  animation-fill-mode: both;
-  top: 89%;
-  left: 71%;
-}
-@keyframes year-appear {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
-  }
+  box-shadow: 0 24px 4px -24px #ec5242;
 }
