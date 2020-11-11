@@ -212,6 +212,10 @@ footer .top-footer h3 {
     padding: 0.5rem;
   }
 }
+.program .whole {
+  color: white;
+  text-decoration: underline;
+}
 
 .speaker .chess {
   width: 100%;
