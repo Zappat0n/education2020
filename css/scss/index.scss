@@ -22,12 +22,20 @@
   .date {
     font-family: $font-titles;
     color: $black;
-    font-size: 22px;
+    font-size: 1.5rem;
     font-weight: 700;
+
+    @media screen and (min-width: 768px) {
+      font-size: 2rem;
+    }
   }
 
   .place {
     font-size: 12px;
+
+    @media screen and (min-width: 768px) {
+      font-size: 1rem;
+    }
   }
 }
 
