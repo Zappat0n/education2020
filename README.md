@@ -1,24 +1,31 @@
 [](https://img.shields.io/badge/Microverse-blueviolet)
 
-## Week 2
+## Week 4
 
-# Project 2 :  Building with Responsive Design
+# HTML & CSS capstone project: Conference page
 
-> This Project consists of making a clone of a .
+> This Project consists of creating an event page. 
 
-![screenshot](./assets/imgs/screenshot.png)
+I have selected a Positive Discipline education event taking place in Murcia (Spain) in 2020.
 
-You can find the original project specification at: 
+![screenshot](./assets/imgs/screenshot_mobile.png)
+![screenshot](./assets/imgs/screenshot_desktop.png)
+
+You can find the original project specification at: ![www.behance.net](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+
+Design idea by ![Cindy Shin in Behance](https://www.behance.net/adagio07)
+Icons designed for ![Freepik]("https://www.flaticon.es/autores/freepik" title="Freepik") from ![www.flaticon.es]("https://www.flaticon.es/)
 
 ## Built With
 
 - HTML
 - CSS
-- VScode & Atom as code editors
+- VScode
+- Bootstrap
 
 ## Live Demo 
 
-[Live Demo Link]()
+[Live Demo Link](https://zappat0n.github.io/education2020/)
 
 ## Authors
 
@@ -27,15 +34,10 @@ You can find the original project specification at:
 - GitHub: [@Zappat0n](https://github.com/Zappat0n)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/angel-luis-barros-pazos-8889011b5/)
 
-👤 **XXX**
-
-- GitHub: [@od-c0d3r]()
-- Twitter: [@od_coder]()
-- LinkedIn: [LinkedIn]()
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
+
 
 ## Show your support
 
