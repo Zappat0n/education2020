@@ -117,7 +117,13 @@ header .nav-link {
 }
 header .nav-black {
   background-color: black;
-  color: lightgray;
+}
+header .nav-black a {
+  color: white;
+}
+header .nav-black a:hover {
+  color: #ec5242;
+  text-decoration: none;
 }
 header .nav-white {
   color: #ec5242;

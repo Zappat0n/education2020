@@ -160,7 +160,15 @@ header {
 
   .nav-black {
     background-color: black;
-    color: $secundary;
+
+    a {
+      color: white;
+    }
+
+    a:hover {
+      color: $primary;
+      text-decoration: none;
+    }
   }
 
   .nav-white {
