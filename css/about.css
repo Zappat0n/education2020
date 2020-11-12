@@ -116,7 +116,7 @@ header .nav-link {
   font: 700 14px/20px cocogoose, sans-serif;
 }
 header .nav-black {
-  background-color: black;
+  background-color: #272a31;
 }
 header .nav-black a {
   color: white;

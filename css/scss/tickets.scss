@@ -20,7 +20,6 @@
 .step1 {
   display: grid;
   grid-template: repeat(4, auto) / repeat(5, auto);
-  border: 10px solid $black;
 
   .item-combi {
     grid-column-start: 3;
@@ -47,7 +46,19 @@
 }
 
 .bordered {
-  border: 4px solid $red;
+  border: 7px solid transparent;
+  border-image: url(".././assets/imgs/stripes.png") 3% repeat;
+}
+
+.bordered::after {
+  background:
+    repeating-linear-gradient(
+      -45deg,
+      transparent 0,
+      transparent 4px,
+      blue 4px,
+      blue 8px
+  );
 }
 
 .lunch {
