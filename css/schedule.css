@@ -1,0 +1,228 @@
+@font-face {
+  font-family: "cocogoose";
+  src: url("../../assets/fonts/Cocogoose_trial.otf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "cocogoose";
+  src: url("../../assets/fonts/cocogoose-light.ttf");
+  font-weight: 400;
+}
+h1 {
+  font-family: cocogoose, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #ec5242;
+  margin: auto;
+}
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 64px;
+  }
+}
+
+h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #272a31;
+  box-shadow: 0 24px 4px -24px #ec5242;
+}
+@media screen and (min-width: 768px) {
+  h3 {
+    font-size: 30px;
+  }
+}
+
+span {
+  display: block;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  color: #272a31;
+}
+@media screen and (min-width: 768px) {
+  p {
+    font-size: 15px;
+  }
+}
+
+a {
+  font-weight: bold;
+  color: #272a31;
+  text-decoration: none;
+}
+
+.intro {
+  font-family: "Lato", sans-serif;
+  color: #ec5242;
+  font-size: 20px;
+  font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+  .intro {
+    font-size: 30px;
+  }
+}
+
+.content {
+  border: solid 1px white;
+  background-color: rgba(211, 211, 211, 0.3);
+  padding: 20px;
+}
+
+.btn {
+  background-color: #ec5242;
+  color: lightgray;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+main {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  main {
+    padding-top: 150px;
+  }
+}
+
+body {
+  background: lightgray url(".././assets/imgs/ilustracion_colegio_elan_transparent.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+header .mobile-navbar {
+  color: #272a31;
+}
+header .dropdown-toggle::after {
+  display: none;
+}
+header .dropdown i {
+  color: #272a31;
+}
+header .dropdown .dropdown-item {
+  color: #ec5242;
+  font: 700 16px/20px cocogoose, sans-serif;
+}
+header .nav-link {
+  color: #ec5242;
+  font: 700 14px/20px cocogoose, sans-serif;
+}
+header .nav-black {
+  background-color: #272a31;
+}
+header .nav-black a {
+  color: white;
+}
+header .nav-black a:hover {
+  color: #ec5242;
+  text-decoration: none;
+}
+header .nav-white {
+  color: #ec5242;
+  background-color: white;
+}
+header .nav-white ul {
+  width: 70%;
+}
+
+footer .top-footer {
+  background-image: url(".././assets/imgs/3d-grunge-room-interior-with-spotlight-and-smoky-atmosphere-background.jpg");
+}
+footer .top-footer .col {
+  width: 40%;
+}
+footer .top-footer img {
+  width: 100%;
+}
+footer .top-footer h3 {
+  color: lightgray;
+}
+
+.table-schedule {
+  font-family: "Lato", sans-serif;
+}
+.table-schedule h3 {
+  box-shadow: none;
+}
+.table-schedule .nav-pills > li > a.active {
+  background-color: #ec5242;
+}
+.table-schedule .legend {
+  background-color: lightgray;
+}
+.table-schedule .day-program {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  border: 2px solid lightgray;
+  background-color: white;
+}
+.table-schedule .item {
+  border-bottom: 2px solid lightgray;
+  padding: 1rem;
+  text-align: center;
+}
+.table-schedule .card {
+  background-color: lightgray;
+}
+.table-schedule .span1 {
+  grid-column-start: 2;
+  grid-column-end: span 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+.table-schedule .span2 {
+  grid-column-start: 2;
+  grid-column-end: span 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+.table-schedule .span3 {
+  grid-column-start: 2;
+  grid-column-end: span 2;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+.table-schedule .span4 {
+  grid-column-start: 2;
+  grid-column-end: span 2;
+  grid-row-start: 4;
+  grid-row-end: 4;
+}
+.table-schedule .span5 {
+  grid-column-start: 2;
+  grid-column-end: span 2;
+  grid-row-start: 5;
+  grid-row-end: 5;
+}
+.table-schedule .span6 {
+  grid-column-start: 2;
+  grid-column-end: span 2;
+  grid-row-start: 6;
+  grid-row-end: 6;
+}
+.table-schedule .span7 {
+  grid-column-start: 2;
+  grid-column-end: span 2;
+  grid-row-start: 7;
+  grid-row-end: 7;
+}
+.table-schedule .span8 {
+  grid-column-start: 2;
+  grid-column-end: span 2;
+  grid-row-start: 8;
+  grid-row-end: 8;
+}
+.table-schedule .span9 {
+  grid-column-start: 2;
+  grid-column-end: span 2;
+  grid-row-start: 9;
+  grid-row-end: 9;
+}

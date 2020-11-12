@@ -1,0 +1,77 @@
+@import "./styles.scss";
+
+@mixin span2($row) {
+  grid-column-start: 2;
+  grid-column-end: span 2;
+  grid-row-start: $row;
+  grid-row-end: $row;
+}
+
+.table-schedule {
+  font-family: $font-text;
+
+  h3 {
+    box-shadow: none;
+  }
+
+  .nav-pills > li > a.active {
+    background-color: $primary;
+  }
+
+  .legend {
+    background-color: $secundary;
+  }
+
+  .day-program {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    border: 2px solid $secundary;
+    background-color: white;
+  }
+
+  .item {
+    border-bottom: 2px solid $secundary;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .card {
+    background-color: $secundary;
+  }
+
+  .span1 {
+    @include span2(1);
+  }
+
+  .span2 {
+    @include span2(2);
+  }
+
+  .span3 {
+    @include span2(3);
+  }
+
+  .span4 {
+    @include span2(4);
+  }
+
+  .span5 {
+    @include span2(5);
+  }
+
+  .span6 {
+    @include span2(6);
+  }
+
+  .span7 {
+    @include span2(7);
+  }
+
+  .span8 {
+    @include span2(8);
+  }
+
+  .span9 {
+    @include span2(9);
+  }
+}
