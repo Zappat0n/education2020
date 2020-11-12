@@ -1,0 +1,49 @@
+@import "./styles.scss";
+
+h1 {
+  text-align: center;
+}
+
+.content {
+  @media screen and (min-width: 768px) {
+    width: 75%;
+  }
+}
+
+.contact {
+  span {
+    display: block;
+
+    @media screen and (min-width: 768px) {
+      display: inline;
+    }
+  }
+}
+
+.logo {
+  @media screen and (min-width: 768px) {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.past-events .year {
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .tag {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    width: 90%;
+    text-align: center;
+  }
+}

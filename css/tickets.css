@@ -1,0 +1,201 @@
+@font-face {
+  font-family: "cocogoose";
+  src: url("../../assets/fonts/Cocogoose_trial.otf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "cocogoose";
+  src: url("../../assets/fonts/cocogoose-light.ttf");
+  font-weight: 400;
+}
+h1 {
+  font-family: cocogoose, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #ec5242;
+  margin: auto;
+}
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 64px;
+  }
+}
+
+h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #272a31;
+  box-shadow: 0 24px 4px -24px #ec5242;
+}
+@media screen and (min-width: 768px) {
+  h3 {
+    font-size: 30px;
+  }
+}
+
+span {
+  display: block;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  color: #272a31;
+}
+@media screen and (min-width: 768px) {
+  p {
+    font-size: 15px;
+  }
+}
+
+a {
+  font-weight: bold;
+  color: #272a31;
+  text-decoration: none;
+}
+
+.intro {
+  font-family: "Lato", sans-serif;
+  color: #ec5242;
+  font-size: 20px;
+  font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+  .intro {
+    font-size: 30px;
+  }
+}
+
+.content {
+  border: solid 1px white;
+  background-color: rgba(211, 211, 211, 0.3);
+  padding: 20px;
+}
+
+.btn {
+  background-color: #ec5242;
+  color: lightgray;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+main {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  main {
+    padding-top: 150px;
+  }
+}
+
+body {
+  background: lightgray url(".././assets/imgs/ilustracion_colegio_elan_transparent.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+header .mobile-navbar {
+  color: #272a31;
+}
+header .dropdown-toggle::after {
+  display: none;
+}
+header .dropdown i {
+  color: #272a31;
+}
+header .dropdown .dropdown-item {
+  color: #ec5242;
+  font: 700 16px/20px cocogoose, sans-serif;
+}
+header .nav-link {
+  color: #ec5242;
+  font: 700 14px/20px cocogoose, sans-serif;
+}
+header .nav-black {
+  background-color: #272a31;
+}
+header .nav-black a {
+  color: white;
+}
+header .nav-black a:hover {
+  color: #ec5242;
+  text-decoration: none;
+}
+header .nav-white {
+  color: #ec5242;
+  background-color: white;
+}
+header .nav-white ul {
+  width: 70%;
+}
+
+footer .top-footer {
+  background-image: url(".././assets/imgs/3d-grunge-room-interior-with-spotlight-and-smoky-atmosphere-background.jpg");
+}
+footer .top-footer .col {
+  width: 40%;
+}
+footer .top-footer img {
+  width: 100%;
+}
+footer .top-footer h3 {
+  color: lightgray;
+}
+
+.step {
+  border: solid 1px white;
+  border-radius: 200px;
+  background-color: lightgray;
+}
+.step ul {
+  width: 40%;
+  padding-inline-start: 25px;
+}
+.step li {
+  color: #ec5242;
+  list-style-position: outside;
+  font-weight: bold;
+}
+
+.step1 {
+  display: grid;
+  grid-template: repeat(4, auto)/repeat(5, auto);
+}
+.step1 .item-combi {
+  grid-column-start: 3;
+  grid-column-end: span 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+.step1 .item {
+  text-align: center;
+  padding: 5px;
+  font-family: "Lato", sans-serif;
+  border: 1px solid white;
+}
+.step1 .item label {
+  font-weight: bold;
+  color: #ec5242;
+}
+.step1 .title {
+  background-color: lightgray;
+}
+
+.bordered {
+  border: 7px solid transparent;
+  border-image: url(".././assets/imgs/stripes.png") 3% repeat;
+}
+
+.bordered::after {
+  background: repeating-linear-gradient(-45deg, transparent 0, transparent 4px, blue 4px, blue 8px);
+}
+
+.lunch .title {
+  width: 100%;
+  background-color: lightgray;
+  border: 1px solid white;
+}

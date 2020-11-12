@@ -1,0 +1,196 @@
+/////////////// FONTS
+
+@font-face {
+  font-family: "cocogoose";
+  src: url("../../assets/fonts/Cocogoose_trial.otf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "cocogoose";
+  src: url("../../assets/fonts/cocogoose-light.ttf");
+  font-weight: 400;
+}
+
+/////////////// VARIABLES
+
+$black: #272a31;
+$red: rgba(236, 82, 66, 1); //#EC5242
+$grey:rgba(211, 211, 211, 1);    //#d3d3d3;
+$grey-transparent: rgba(211, 211, 211, 0.3);
+$font-titles : cocogoose, sans-serif;
+$font-text: 'Lato', sans-serif;
+$primary: $red;
+$secundary: $grey;
+$primary-transparent: $grey-transparent;
+
+@mixin topLeft ($top, $left) {
+  top: $top;
+  left: $left;
+}
+
+@mixin transformLetter($top, $left, $width, $time) {
+  position: absolute;
+  transform: rotate(360deg);
+  transition: top $time, left $time, transform $time;
+  transition-timing-function: ease-in-out;
+
+  @include topLeft($top, $left);
+
+  img {
+    width: $width;
+  }
+}
+
+/////////////// SCSS
+
+h1 {
+  font-family: $font-titles;
+  font-size: 32px;
+  font-weight: 700;
+  color: $primary;
+  margin: auto;
+
+  @media screen and (min-width: 768px) {
+    font-size: 64px;
+  }
+}
+
+h3 {
+  font-family: $font-text;
+  font-size: 24px;
+  font-weight: bold;
+  color: $black;
+  box-shadow: 0 24px 4px -24px $primary;
+
+  @media screen and (min-width: 768px) {
+    font-size: 30px;
+  }
+}
+
+span {
+  display: block;
+}
+
+p {
+  font-family: $font-text;
+  font-size: 12px;
+  color: $black;
+
+  @media screen and (min-width: 768px) {
+    font-size: 15px;
+  }
+}
+
+a {
+  font-weight: bold;
+  color: $black;
+  text-decoration: none;
+}
+
+.intro {
+  font-family: $font-text;
+  color: $primary;
+  font-size: 20px;
+  font-weight: 400;
+
+  @media screen and (min-width: 768px) {
+    font-size: 30px;
+  }
+}
+
+.content {
+  border: solid 1px white;
+  background-color: $primary-transparent;
+  padding: 20px;
+}
+
+.btn {
+  background-color: $primary;
+  color: $secundary;
+  font-family: $font-text;
+  font-weight: 700;
+}
+
+main {
+  max-width: 1024px;
+  margin: 0 auto;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 150px;
+  }
+}
+
+body {
+  background: $secundary url(".././assets/imgs/ilustracion_colegio_elan_transparent.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+header {
+  .mobile-navbar {
+    color: $black;
+  }
+
+  .dropdown-toggle::after {
+    display: none;
+  }
+
+  .dropdown {
+    i {
+      color: $black;
+    }
+
+    .dropdown-item {
+      color: $primary;
+      font: 700 16px/20px cocogoose, sans-serif;
+    }
+  }
+
+  .nav-link {
+    color: $primary;
+    font: 700 14px/20px cocogoose, sans-serif;
+  }
+
+  .nav-black {
+    background-color: $black;
+
+    a {
+      color: white;
+    }
+
+    a:hover {
+      color: $primary;
+      text-decoration: none;
+    }
+  }
+
+  .nav-white {
+    color: $primary;
+    background-color: white;
+
+    ul {
+      width: 70%;
+    }
+  }
+}
+
+footer {
+  .top-footer {
+    background-image: url(".././assets/imgs/3d-grunge-room-interior-with-spotlight-and-smoky-atmosphere-background.jpg");
+
+    .col {
+      width: 40%;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    h3 {
+      color: $secundary;
+    }
+  }
+}

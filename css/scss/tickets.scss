@@ -1,0 +1,70 @@
+@import "./styles.scss";
+
+.step {
+  border: solid 1px white;
+  border-radius: 200px;
+  background-color: $secundary;
+
+  ul {
+    width: 40%;
+    padding-inline-start: 25px;
+  }
+
+  li {
+    color: $primary;
+    list-style-position: outside;
+    font-weight: bold;
+  }
+}
+
+.step1 {
+  display: grid;
+  grid-template: repeat(4, auto) / repeat(5, auto);
+
+  .item-combi {
+    grid-column-start: 3;
+    grid-column-end: span 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+
+  .item {
+    text-align: center;
+    padding: 5px;
+    font-family: $font-text;
+    border: 1px solid white;
+
+    label {
+      font-weight: bold;
+      color: $primary;
+    }
+  }
+
+  .title {
+    background-color: $secundary;
+  }
+}
+
+.bordered {
+  border: 7px solid transparent;
+  border-image: url(".././assets/imgs/stripes.png") 3% repeat;
+}
+
+.bordered::after {
+  background:
+    repeating-linear-gradient(
+      -45deg,
+      transparent 0,
+      transparent 4px,
+      blue 4px,
+      blue 8px
+    );
+}
+
+.lunch {
+  .title {
+    width: 100%;
+    background-color: $secundary;
+    border: 1px solid white;
+  }
+}
