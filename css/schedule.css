@@ -12,7 +12,7 @@ h1 {
   font-family: cocogoose, sans-serif;
   font-size: 32px;
   font-weight: 700;
-  color: #ec5242;
+  color: #0d71b8;
   margin: auto;
 }
 @media screen and (min-width: 768px) {
@@ -26,7 +26,7 @@ h3 {
   font-size: 24px;
   font-weight: bold;
   color: #272a31;
-  box-shadow: 0 24px 4px -24px #ec5242;
+  box-shadow: 0 24px 4px -24px #0d71b8;
 }
 @media screen and (min-width: 768px) {
   h3 {
@@ -57,7 +57,7 @@ a {
 
 .intro {
   font-family: "Lato", sans-serif;
-  color: #ec5242;
+  color: #0d71b8;
   font-size: 20px;
   font-weight: 400;
 }
@@ -74,7 +74,7 @@ a {
 }
 
 .btn {
-  background-color: #ec5242;
+  background-color: #0d71b8;
   color: lightgray;
   font-family: "Lato", sans-serif;
   font-weight: 700;
@@ -108,11 +108,11 @@ header .dropdown i {
   color: #272a31;
 }
 header .dropdown .dropdown-item {
-  color: #ec5242;
+  color: #0d71b8;
   font: 700 16px/20px cocogoose, sans-serif;
 }
 header .nav-link {
-  color: #ec5242;
+  color: #0d71b8;
   font: 700 14px/20px cocogoose, sans-serif;
 }
 header .nav-black {
@@ -122,11 +122,11 @@ header .nav-black a {
   color: white;
 }
 header .nav-black a:hover {
-  color: #ec5242;
+  color: #0d71b8;
   text-decoration: none;
 }
 header .nav-white {
-  color: #ec5242;
+  color: #0d71b8;
   background-color: white;
 }
 header .nav-white ul {
@@ -153,7 +153,7 @@ footer .top-footer h3 {
   box-shadow: none;
 }
 .table-schedule .nav-pills > li > a.active {
-  background-color: #ec5242;
+  background-color: #0d71b8;
 }
 .table-schedule .legend {
   background-color: lightgray;
